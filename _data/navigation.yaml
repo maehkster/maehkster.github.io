@@ -1,0 +1,15 @@
+main:
+  - title: "Digitalisierung & Meetings"
+    url: /docs/quick-start-guide/
+  - title: "Leistungen"
+    url: /year-archive/
+  - title: "Über mich"
+    url: /categories/
+  # - title: "Tags"
+  #   url: /tags/
+  # - title: "Pages"
+  #   url: /page-archive/
+  # - title: "Collections"
+  #   url: /collection-archive/
+  # - title: "External Link"
+  #   url: https://google.com

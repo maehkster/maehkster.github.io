@@ -86,10 +86,12 @@ author:
 # github_username:  jekyll
 
 # Build settings
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 minimal_mistakes_skin: "contrast" #"default"  "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
 
-# plugins:
+plugins:
+  - jekyll-include-cache
 #   - jekyll-feed
 
 # Exclude from processing.

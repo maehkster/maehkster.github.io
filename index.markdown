@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: splash # splash, home
-author_profile: true
+author_profile: false
 
 title: "Selbstbewusst im digitalisierten Büroalltag"
 # permalink: /splash-page/

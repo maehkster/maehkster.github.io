@@ -10,13 +10,13 @@ title: "Selbstbewusst im digitalisierten Büroalltag"
 # date: 2016-03-23T11:48:41-04:00
 header: # entweder overlay color oder image
   overlay_color: "#0f4f4f" #0AA
-#  overlay_filter:  #"0.8" rgba(255, 255, 255, ) linear-gradient(rgb(255 255 255 / 0.1), rgb(20 100 100 / 0.8)), url(/assets/images/unsplash-image-2.jpg)
-#  overlay_image: /assets/images/unsplash-image-2.jpg
+  overlay_filter: "rgba(20, 100, 100, 0.5)" #"0.8" rgba(255, 255, 255, ) linear-gradient(rgb(255 255 255 / 0.1), rgb(20 100 100 / 0.8)), url(/assets/images/unsplash-image-2.jpg)
+  overlay_image: /assets/images/unsplash-image-2.jpg
 #   actions:
 #     - label: "Download"
 #       url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "PLATZHALTER BILD Covid Proof"
+#excerpt: "PLATZHALTER BILD Covid Proof"
 intro: 
   - excerpt: Das Angebot richtet sich an folgende Zielgruppen
 feature_row:

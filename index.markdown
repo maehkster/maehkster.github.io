@@ -16,9 +16,9 @@ header: # entweder overlay color oder image
 #     - label: "Download"
 #       url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-#excerpt: "PLATZHALTER BILD Covid Proof"
+excerpt: Meistern Sie die digitalisierte Zusammenarbeit in der Interaktion mit Kollegen und Kunden im Büro-, Projekt- und Meetingalltag! 
 intro: 
-  - excerpt: Das Angebot richtet sich an folgende Zielgruppen
+  - excerpt: Die Zusammenarbeit im digitalisierten Büro gestaltet sich anders als im Präsenzmodus. Unsere Arbeisphilosophien haben sich über Jahrzehnte hinweg implizit in der Gesellschaft verankert und eingespielt und werden durch den Einsatz digitaler Werkzeuge komplett auf den Kopf gestellt. Die Vielzahl an cloudbasierten Meeting-, Whiteboard-, Zeichen-, Dokumentationswerkzeuge entfalten ihr eigentliches Potenzial nicht von selbst. Zum Erlernen effizienter Abläufe in dieser neuen Welt braucht es Hilfestellungen, Leitplanken und eine kontinuierliche Begleitung. [Covid-19](https://de.wikipedia.org/wiki/COVID-19) hat uns das seit Beginn 2020 sehr kurzfristig bewusst gemacht. 
 feature_row:
   - image_path: assets/images/portfolio-office.png
     alt: "placeholder image 1"

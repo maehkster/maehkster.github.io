@@ -20,12 +20,12 @@
 
 site:
   locale: de-DE
-title: Let's work together online!
+title: Digitale Kollaboration - Coaching und Beratung
 #title_seperator: "|"
 subtitle: Der Weg zu effektiven Online Meetings und Workshops
 name: xSilvana 
 description: xUnternehmenswebsite Silvana
-site: https://maehkster.github.io
+site: test.digitale-kollaboration.de #https://maehkster.github.io
 # Achtung bei GitHub project Sites -> baserurl: in der Doku googlen
 # repository:
 # head_scripts:

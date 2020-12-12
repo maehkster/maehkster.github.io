@@ -8,39 +8,39 @@ author_profile: false
 title: "Selbstbewusst im digitalisierten Büroalltag"
 # permalink: /splash-page/
 # date: 2016-03-23T11:48:41-04:00
-header:
-  overlay_color: "#0AA"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/unsplash-image-1.jpg
+header: # entweder overlay color oder image
+  overlay_color: "#0f4f4f" #0AA
+#  overlay_filter:  #"0.8" rgba(255, 255, 255, ) linear-gradient(rgb(255 255 255 / 0.1), rgb(20 100 100 / 0.8)), url(/assets/images/unsplash-image-2.jpg)
+#  overlay_image: /assets/images/unsplash-image-2.jpg
 #   actions:
 #     - label: "Download"
 #       url: "https://github.com/mmistakes/minimal-mistakes/"
-#   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "PLATZHALTER BILD Covid Proof"
 intro: 
   - excerpt: Das Angebot richtet sich an folgende Zielgruppen
 feature_row:
-  - image_path: assets/images/small-small-small-set-silhouettes-men-women-standing-260nw-1369303289.png
+  - image_path: assets/images/portfolio-office.png
     alt: "placeholder image 1"
     title: "Office Teams"
     excerpt: "Effektive Meetings zwischen (Back-)Office, Verwaltung und Führungskräften"
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/small-small-small-set-silhouettes-men-women-standing-260nw-1369303289.png
+  - image_path: assets/images/portfolio-office.png
     alt: "placeholder image 2"
     title: Sales & Consulting
     excerpt: Endkundenkontakt, Workshopabläufe, Kennenlern- und Vorstellungstermine
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/small-small-small-set-silhouettes-men-women-standing-260nw-1369303289.png
+  - image_path: assets/images/portfolio-office.png
     title: Projektmeetings
     excerpt:  Regelmäßige Termine zwischen Mitarbeitern aus (nicht-) agilen Projektteams
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
-  - image_path: /assets/images/small-small-small-set-silhouettes-men-women-standing-260nw-1369303289.png
+  - image_path: assets/images/portfolio-office.png
     title: Unternehmen
     excerpt: Meeting-Guidelines und Vorlagen, Unterstützung bei Werkzeugeinführung.
     url: "#test-link"

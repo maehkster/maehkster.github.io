@@ -20,9 +20,9 @@
 
 site:
   locale: de-DE
-title: MEETING-PROFI.DE
+title: Let's work together online!
 #title_seperator: "|"
-subtitle: Effektive Meetings im digitalisierten Format
+subtitle: Der Weg zu effektiven Online Meetings und Workshops
 name: xSilvana 
 description: xUnternehmenswebsite Silvana
 site: https://maehkster.github.io
@@ -62,17 +62,20 @@ author:
   location: Munich, Germany
   #avatar: /assets/images/
 
-# footer:
-#   links:
-#     - label: "Twitter"
-#       icon: "fab fa-fw fa-twitter-square"
-#       url: "https://twitter.com/mmistakes"
-#     - label: "GitHub"
-#       icon: "fab fa-fw fa-github"
-#       url: "https://github.com/mmistakes"
-#     - label: "Instagram"
-#       icon: "fab fa-fw fa-instagram"
-#       url: "https://instagram.com/mmistakes"
+footer:
+  links:
+    - label: "Impressum & Datenschutz"
+      url: "impressum.html"
+
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/mmistakes"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mmistakes"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/mmistakes"
 
 
 # email: your-email@example.com
@@ -89,6 +92,7 @@ author:
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 minimal_mistakes_skin: "contrast" #"default"  "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
+defaults:
 
 plugins:
   - jekyll-include-cache

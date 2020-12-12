@@ -10,15 +10,15 @@ title: "Selbstbewusst im digitalisierten Büroalltag"
 # date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#0AA"
-  overlay_filter: "0.6"
-#  overlay_image: /assets/images/unsplash-image-1.jpg
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/unsplash-image-1.jpg
 #   actions:
 #     - label: "Download"
 #       url: "https://github.com/mmistakes/minimal-mistakes/"
 #   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "PLATZHALTER BILD Covid Proof"
-#intro: 
-#  - excerpt: Das Angebot richtet sich an folgende Zielgruppen
+intro: 
+  - excerpt: Das Angebot richtet sich an folgende Zielgruppen
 feature_row:
   - image_path: assets/images/small-small-small-set-silhouettes-men-women-standing-260nw-1369303289.png
     alt: "placeholder image 1"
@@ -74,13 +74,7 @@ feature_row:
 #{% include feature_row id="intro" type="center" %}
 ---
 
-
+{% include feature_row id="intro" type="center" %}
 
 {% include feature_row id="feature_row" %}
 
-{% include feature_row id="feature_row2" type="left" %}
-
-{% include feature_row id="feature_row3" type="right" %}
-
-{% include feature_row id="feature_row4" type="center" %}
----

@@ -10,39 +10,47 @@ title: "Selbstbewusst im digitalisierten Büroalltag"
 # date: 2016-03-23T11:48:41-04:00
 header: # entweder overlay color oder image
   overlay_color: "#0f4f4f" #0AA
-  overlay_filter: "rgba(20, 100, 100, 0.5)" #"0.8" rgba(255, 255, 255, ) linear-gradient(rgb(255 255 255 / 0.1), rgb(20 100 100 / 0.8)), url(/assets/images/unsplash-image-2.jpg)
-  overlay_image: /assets/images/unsplash-image-2.jpg
+  overlay_filter: "rgba(0, 60, 60, 0.65)" #"0.8" rgba(20, 100, 100, 0.5), url(/assets/images/unsplash-image-2.jpg)
+  overlay_image: /assets/images/unsplash-domenico-loia-image-3.png #unsplash-image-2.jpg
 #   actions:
 #     - label: "Download"
 #       url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: Meistern Sie die digitalisierte Zusammenarbeit in der Interaktion mit Kollegen und Kunden im Büro-, Projekt- und Meetingalltag! 
 intro: 
-  - excerpt: Die Zusammenarbeit im digitalisierten Büro gestaltet sich anders als im Präsenzmodus. Unsere Arbeisphilosophien haben sich über Jahrzehnte hinweg implizit in der Gesellschaft verankert und eingespielt und werden durch den Einsatz digitaler Werkzeuge komplett auf den Kopf gestellt. Die Vielzahl an cloudbasierten Meeting-, Whiteboard-, Zeichen-, Dokumentationswerkzeuge entfalten ihr eigentliches Potenzial nicht von selbst. Zum Erlernen effizienter Abläufe in dieser neuen Welt braucht es Hilfestellungen, Leitplanken und eine kontinuierliche Begleitung. [Covid-19](https://de.wikipedia.org/wiki/COVID-19) hat uns das seit Beginn 2020 sehr kurzfristig bewusst gemacht. 
+  - excerpt: |
+      Die Zusammenarbeit im digitalisierten Büro gestaltet sich anders als im Präsenzmodus. Unsere Arbeisphilosophien haben sich über Jahrzehnte hinweg implizit in der Gesellschaft verankert und eingespielt und werden durch den Einsatz digitaler Werkzeuge komplett auf den Kopf gestellt. 
+
+      Die Vielzahl an cloudbasierten Meeting-, Whiteboard-, Zeichen-, Dokumentationswerkzeuge entfalten ihr eigentliches Potenzial nicht von selbst. Zum Erlernen effizienter Abläufe in dieser neuen Welt braucht es Hilfestellungen, Leitplanken und eine Begleitung dieses kontinierlichen Lernprozesses. 
+
+      [Covid-19](https://de.wikipedia.org/wiki/COVID-19) hat uns all das seit Beginn 2020 sehr kurzfristig bewusst gemacht und die Digitalisierung des Büroalltags nachhaltig beschleunigt. Aber haben wir wirklich das Potenzial bzgl. Effektivität und Effizienz bereits ausgeschöpft und nutzen diese neuen Werkzeuge selbstbewusst im Alltag? 
+# <br>[Habe ich ihr Interesse geweckt?](#link){: .btn .btn--warning}
 feature_row:
   - image_path: assets/images/portfolio-office.png
-    alt: "placeholder image 1"
-    title: "Office Teams"
-    excerpt: "Effektive Meetings zwischen (Back-)Office, Verwaltung und Führungskräften"
+    alt: "Anforderungen an digitale Kollaboration von Office Teams"
+    title: "Management & Office"
+    excerpt: Zusammenarbeit zwischen Office, Verwaltung und Führungskräften
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/images/portfolio-office.png
-    alt: "placeholder image 2"
+    alt: "Anforderungen von Mitarbeitern mit Kundenkontakt"
     title: Sales & Consulting
-    excerpt: Endkundenkontakt, Workshopabläufe, Kennenlern- und Vorstellungstermine
+    excerpt: Endkundenkontakt, Kennenlern- und Vertriebstermine, Workshops
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/images/portfolio-office.png
-    title: Projektmeetings
-    excerpt:  Regelmäßige Termine zwischen Mitarbeitern aus (nicht-) agilen Projektteams
+    alt: "Anforderungen von Projektteams"
+    title: Projekt Teams
+    excerpt:  Abläufe zwischen Mitarbeitern aus agilen oder nicht-agilen Projektteams
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
   - image_path: assets/images/portfolio-office.png
+    alt: "Begleitung von Unternehmen"
     title: Unternehmen
-    excerpt: Meeting-Guidelines und Vorlagen, Unterstützung bei Werkzeugeinführung.
+    excerpt: Erstellung von Meetingleitfäden, Workshopvorlagen und Werkzeugauswahl.
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"

@@ -62,12 +62,15 @@ feature_row:
 <p style="margin-bottom: 2em"></p> 
 
 # Management & Office
+<hr>
 
 # Sales & Consulting
+<hr>
 
 # Projekt Teams
+<hr>
 
-# Unternehmen
+<h1 id="unternehmen"> Unternehmen <a style="text-color:#006060" href="https://www.google.de">bla</a></h1> [bla](https://www.google.de) <p>Zurück</p> <div>Zurück</div>
 Neben der Stärkung der Fähigkeiten der Mitarbeiter braucht es auch grundsätzliche Rahmenbedingungen und Regeln.
 Der Fokus liegt auf den Rahmenbedingungen für die Kollaboration von Mitarbeitern unter Zuhilfenahme von typischen Online-Werkzeugen. Gezielte Maßnahmen zur Begleitung eines Kulturwandels 
 * __Meeting Guidelines und Netiquetten für virtuelle Termine__ haben den Zweck die gegenseitige Erwarungshaltung in Form eines Verhaltenskodex an die eigenen Mitarbeiter zu kommunizieren und einen Kulturwandel positiv zu beeinflussen. Beispielsweise werden hier u.a. Vereinbarungen getroffen bzgl. Dauer von Terminen, Einsatz der Kamera, Ausstattung der Hardware, Kleidung, Pünktlichkeit, Arbeitsergebnisse usw.

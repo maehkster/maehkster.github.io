@@ -68,7 +68,8 @@ feature_row:
 # Projekt Teams
 
 # Unternehmen
-Die Kategorie "Unternehmen" stellt ein Enablement der Organisation dar. Der Fokus liegt auf den Rahmenbedingungen für die Kollaboration von Mitarbeitern unter Zuhilfenahme von typischen Online-Werkzeugen. Gezielte Maßnahmen zur Begleitung eines Kulturwandels 
-* Erstellung von Vorlagen für übliche Meetingtypen
-* Beratung bei der Erstellung eines Verhaltenskodex für Online-Meetings
-* Beratung bei der Auswahl der passenden Werkzeuge
+Neben der Stärkung der Fähigkeiten der Mitarbeiter braucht es auch grundsätzliche Rahmenbedingungen und Regeln.
+Der Fokus liegt auf den Rahmenbedingungen für die Kollaboration von Mitarbeitern unter Zuhilfenahme von typischen Online-Werkzeugen. Gezielte Maßnahmen zur Begleitung eines Kulturwandels 
+* __Meeting Guidelines und Netiquetten für virtuelle Termine__ haben den Zweck die gegenseitige Erwarungshaltung in Form eines Verhaltenskodex an die eigenen Mitarbeiter zu kommunizieren und einen Kulturwandel positiv zu beeinflussen. Beispielsweise werden hier u.a. Vereinbarungen getroffen bzgl. Dauer von Terminen, Einsatz der Kamera, Ausstattung der Hardware, Kleidung, Pünktlichkeit, Arbeitsergebnisse usw.
+* __Vorlagen (Templates) für sich häufig wiederholende Meeting- und Workshoptypen__ erleichtern die Vorbereitung, Ablaufsplanung und die allseits unbeliebte Nachbereitung (z.B. Export-Vorlagen unter Berücksichtigung der Corporate Identity). Gleichzeitig kann hiermit auch die Erwartung hinsichtlich eines konkreten Arbeitsergebnisses eines Termins manifestiert sein. 
+* Die __Auswahl der passenden Werkzeuge__ ist keine abgeschlossene Handlung. Die digitale Transformation bringt kontinuierliche Veränderungsprozesse mit sich, wovon logischerweise ihre Mitarbeiter im Alltag nicht verschont bleiben. Eine in angemessenem Außmaß regelmäßige Bewertung der eingesetzten Werkzeuge hinsichtlich der Praxisrelevanz ist dabei unumgänglich. Eine wichtige Rolle spielt hierbei auch das Feedback ihrer Mitarbeiter bzgl. Akzeptanz der eingesetzten Lösungen.

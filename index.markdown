@@ -19,7 +19,7 @@ header: # entweder overlay color oder image
 excerpt: Meistern Sie die digitalisierte Zusammenarbeit in der Interaktion mit Kollegen und Kunden im Büro-, Projekt- und Meetingalltag! 
 intro: 
   - excerpt: |
-      Die Zusammenarbeit im digitalisierten Büro gestaltet sich anders als im Präsenzmodus. Unsere Arbeisphilosophien haben sich über Jahrzehnte hinweg implizit in der Gesellschaft verankert und eingespielt und werden durch den Einsatz digitaler Werkzeuge komplett auf den Kopf gestellt. 
+      Die Zusammenarbeit im digitalisierten Büro gestaltet sich anders als im Präsenzmodus. Unsere Arbeisphilosophien haben sich über Jahrzehnte hinweg implizit in der Gesellschaft verankert und werden durch den Einsatz digitaler Werkzeuge komplett auf den Kopf gestellt. 
 
       Die Vielzahl an cloudbasierten Meeting-, Whiteboard-, Zeichen-, Dokumentationswerkzeuge entfalten ihr eigentliches Potenzial nicht von selbst. Zum Erlernen effizienter Abläufe in dieser neuen Welt braucht es Hilfestellungen, Leitplanken und eine Begleitung dieses kontinierlichen Lernprozesses. 
 

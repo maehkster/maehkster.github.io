@@ -42,26 +42,14 @@ feature_row:
 
 {% include feature_row id="feature_row" %}
 
-{% include toc %}
 
 
-# Office Teams
-## Zielsetzung
-## Ablauf und Preis
+Grundsätzlich ähneln sich die Abläufe in der ersten Hälfte der Fortbildung (Einführung, Allgemeine Abläufe in Online Meetings). In der zweiten Hälfte der Lernbegleitung wird der Schwerpunkt auf die Besonderheiten im konkreten Arbeitsalltag der Zielgruppen gelegt.
 
-# Sales & Consulting
-## Zielsetzung
-## Ablauf und Preis
+# Agenda Modul 1
+# Agenda Modul 2
+# Agenda Modul 3
+# Agenda Modul 4
+# Agenda Modul 5-8
+Vertiefung, Spezialisierung, Aktuelle Ereignisse, Wiederholung, QandA
 
-# Projektmitarbeiter
-## Zielsetzung
-## Ablauf und Preis
-
-# Unternehmen
-## Zielsetzung
-Die Kategorie "Unternehmen" stellt ein Enablement der Organisation dar. Der Fokus liegt auf den Rahmenbedingungen für die Kollaboration von Mitarbeitern unter Zuhilfenahme von typischen Online-Werkzeugen. Gezielte Maßnahmen zur Begleitung eines Kulturwandels 
-* Erstellung von Vorlagen für übliche Meetingtypen
-* Beratung bei der Erstellung eines Verhaltenskodex für Online-Meetings
-* Beratung bei der Auswahl der passenden Werkzeuge
-## Ablauf und Preis
-Die Um

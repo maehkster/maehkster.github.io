@@ -1,8 +1,8 @@
 main:
-  - title: "Zielgruppen"
-    url: /zielgruppen
   - title: Leistungen
     url: /leistungen
+  - title: "Zielgruppen"
+    url: /zielgruppen
   - title: "Über mich"
     url: /ueber-mich
   - title: "Kontakt"

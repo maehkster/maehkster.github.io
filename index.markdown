@@ -30,56 +30,30 @@ feature_row:
     alt: "Anforderungen an digitale Kollaboration von Office Teams"
     title: "Management & Office"
     excerpt: Zusammenarbeit zwischen Office, Verwaltung und Führungskräften
-    url: "#test-link"
-    btn_label: "Read More"
+    url: "zielgruppen#office-teams"
+    btn_label: "Mehr lesen"
     btn_class: "btn--primary"
   - image_path: assets/images/portfolio-office.png
     alt: "Anforderungen von Mitarbeitern mit Kundenkontakt"
     title: Sales & Consulting
     excerpt: Endkundenkontakt, Kennenlern- und Vertriebstermine, Workshops
-    url: "#test-link"
-    btn_label: "Read More"
+    url: "zielgruppen#sales--consulting"
+    btn_label: "Mehr lesen"
     btn_class: "btn--primary"
   - image_path: assets/images/portfolio-office.png
     alt: "Anforderungen von Projektteams"
     title: Projekt Teams
     excerpt:  Abläufe zwischen Mitarbeitern aus agilen oder nicht-agilen Projektteams
-    url: "#test-link"
-    btn_label: "Read More"
+    url: "zielgruppen#projekt-teams"
+    btn_label: "Mehr lesen"
     btn_class: "btn--primary"
   - image_path: assets/images/portfolio-office.png
     alt: "Begleitung von Unternehmen"
     title: Unternehmen
     excerpt: Erstellung von Meetingleitfäden, Workshopvorlagen und Werkzeugauswahl.
-    url: "#test-link"
-    btn_label: "Read More"
+    url: "zielgruppen#unternehmen"
+    btn_label: "Mehr lesen"
     btn_class: "btn--primary"
-# feature_row2:
-#   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-#     alt: "placeholder image 2"
-#     title: "Placeholder Image Left Aligned"
-#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Left aligned with `type="left"`'
-#     url: "#test-link"
-#     btn_label: "Read More"
-#     btn_class: "btn--primary"
-# feature_row3:
-#   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-#     alt: "placeholder image 2"
-#     title: "Placeholder Image Right Aligned"
-#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Right aligned with `type="right"`'
-#     url: "#test-link"
-#     btn_label: "Read More"
-#     btn_class: "btn--primary"
-# feature_row4:
-#   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-#     alt: "placeholder image 2"
-#     title: "Placeholder Image Center Aligned"
-#     excerpt: 'This is some sample content that goes here with **Markdown** formatting. Centered with `type="center"`'
-#     url: "#test-link"
-#     btn_label: "Read More"
-#     btn_class: "btn--primary"
-
-#{% include feature_row id="intro" type="center" %}
 ---
 
 {% include feature_row id="intro" type="center" %}

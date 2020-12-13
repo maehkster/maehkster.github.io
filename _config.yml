@@ -20,7 +20,8 @@
 
 site:
   locale: de-DE
-title: Digitale Kollaboration - Coaching und Beratung
+title: >
+    digitale-kooperation.de
 #title_seperator: "|"
 subtitle: Der Weg zu effektiven Online Meetings und Workshops
 name: xSilvana 

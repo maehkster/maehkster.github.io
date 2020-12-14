@@ -42,6 +42,10 @@ feature_row:
 
 {% include feature_row id="feature_row" %}
 
+Kacheln
+* Kostenloses Beratungsgespräch zur Bewertung ihrer Ausgangslage
+* Durchführung von Team Coachings
+* Beratung bzgl. Leitlinien, Netiquette, Werkzeugauswahl
 
 
 Grundsätzlich ähneln sich die Abläufe in der ersten Hälfte der Fortbildung (Einführung, Allgemeine Abläufe in Online Meetings). In der zweiten Hälfte der Lernbegleitung wird der Schwerpunkt auf die Besonderheiten im konkreten Arbeitsalltag der Zielgruppen gelegt.

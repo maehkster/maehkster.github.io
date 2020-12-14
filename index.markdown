@@ -32,8 +32,8 @@ excerpt: Meistern Sie die digitalisierte Zusammenarbeit in der Interaktion mit K
 > [Covid-19](https://de.wikipedia.org/wiki/COVID-19) hat uns all das seit Beginn 2020 sehr kurzfristig bewusst gemacht und die Digitalisierung des Büroalltags nachhaltig beschleunigt. Aber haben wir wirklich das __Potenzial bzgl. Effektivität und Effizienz__ bereits ausgeschöpft und nutzen diese neuen Werkzeuge selbstbewusst im Alltag? 
 > 
 >
-[Lesen Sie hier über die Herausforderungen im digitalen Büroalltag](/herausforderungen){: .text-center .btn .btn--primary .btn--large style="color: white; width:100%"}
+[Lesen Sie _hier_ über die Herausforderungen im digitalen Büroalltag](/herausforderungen){: .text-center .btn .btn--primary .btn--large style="color: white; width:100%"}
 >
 > Die Vielzahl an cloudbasierten Meeting-, Whiteboard-, Zeichen-, Dokumentationswerkzeuge entfalten ihr eigentliches Potenzial nicht von selbst. Zum Erlernen effizienter Abläufe in dieser neuen Welt braucht es Hilfestellungen, Leitplanken und eine Begleitung dieses kontinierlichen Lernprozesses. Nur durch fundiertes __methodisches Wissen__ und __Selbstbewusstsein ihrer Mitarbeiter und Kollegen__ entfalten diese Werkzeuge ihr volles Potenzial.
 >
-[Vereinbaren Sie ein kostenloses Beratungsgespräch](/leistungen){: .text-center .btn .btn--primary .btn--x-large style="color: white; width:100%"}
+[Vereinbaren Sie ein kostenloses Beratungsgespräch](/leistungen){: .text-center .btn .btn--primary .btn--large style="color: white; width:100%"}

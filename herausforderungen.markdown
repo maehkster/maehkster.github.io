@@ -56,10 +56,7 @@ feature_row:
     btn_label: "Mehr lesen"
     btn_class: "btn--primary"
 ---
-
-<p style="margin-bottom: 3em"></p> 
-
-### Digitale Kollaborationswerkzeuge sinnvoll nutzen <a href="#callToAction" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
+### Digitale Kollaborationswerkzeuge sinnvoll nutzen
 > Auf den ersten Blick hängen digitalisierte Arbeitsabläufe stark mit Werkzeugen zusammen. Es gibt eine Vielzahl von unterschiedlichen Werkzeugkategorien. Neben der Schwierigkeit der Auswahl der passenden Werkzeuge, sind wir in der Realität häufig nicht nur mit den intern ausgewählten Werkzeugen in Berührung, sondern auch mit den Werkzeugen von Kunden, Partner und Lieferanten. 
 
 Übersicht über die am häufigsten verwendeten Werkzeuge:

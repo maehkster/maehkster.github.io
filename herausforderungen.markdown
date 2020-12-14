@@ -61,33 +61,15 @@ feature_row:
 
 Übersicht über die am häufigsten verwendeten Werkzeuge:
 
-{% capture table-tools %}
+
 | __Meeting-, Konferenz- und Chat-Software__ | Teams, Skype, Bluejeans, Zoom, WebEx, Sametime, Slack, ...|
 | __Whiteboard Software__ | Miro.com, Conceptboard, Mural, Lucidspark, ... |
 | __Office Software & Wikis__ | Office365, Google Workspace/GSuite, Confluence, ... |
 | __Projektmanagement und Aufgabenverwaltung__ | Trello, Jira, Asana, Monday, ...|
 | __Digitale Dateiablage__ | Nextcloud, Onedrive, Dropbox, Box, ... |
 | __Email__ | Outlook, GMail, Notes, ... |
-{% endcapture %}
 
-<div class="table-responsive">
-  {{ table-tools | markdownify }}
-</div>
-
-{% capture notice-text %}
-Hat ihr Unternehmen bereits entsprechende Leitlinien und Netiquetten, die auf eine digitale Arbeitskultur einzahlen?
-Kennen Ihre Kollegen die allgemeingültigen Konzepte, wie man diese Werkzeuge effizient und effektiv in den Arbeitsalltag integriert? 
-Wie selbstbewusst sind ihre Mitarbeiter beim Einsatz dieser Werkzeuge? 
-{: style="font-size: large"}
-[Vereinbaren Sie ein kostenloses Beratungsgespräch](#link){: .text-center .btn .btn--primary .btn--x-large style="color: white; width:100%"}
-{% endcapture %}
-
-<div class="notice--info"  id="callToAction" >
-  <h2 class="no_toc">Benötigen Sie Unterstützung?</h2>
-  {{ notice-text | markdownify }}
-</div>
-
-<hr>
+{% include kontaktaufnahme.markdown %}
 
 # Herausforderungen sind abhängig von der Perspektive
 Lesen Sie hier die spezifischen Herausforderungen aus unterschiedlichen Perspektiven
@@ -97,14 +79,14 @@ Lesen Sie hier die spezifischen Herausforderungen aus unterschiedlichen Perspekt
 * [Projekt-Teams](#projekt-teams--zum-anfang): Regelmäßige Abläufe und Steuerung von Aufgaben innerhalb der Teams
 
 
-### Unternehmen <a href="#callToAction" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
+### Unternehmen <a href="#kontaktaufnahme" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
 > Neben der Stärkung der Fähigkeiten der Mitarbeiter braucht es auch grundsätzliche Rahmenbedingungen und Regeln.
 Der Fokus liegt auf den Rahmenbedingungen für die Kollaboration von Mitarbeitern unter Zuhilfenahme von typischen Online-Werkzeugen. Gezielte Maßnahmen zur Begleitung eines Kulturwandels 
 * __Meeting Guidelines und Netiquetten für virtuelle Termine__ haben den Zweck die gegenseitige Erwarungshaltung in Form eines Verhaltenskodex an die eigenen Mitarbeiter zu kommunizieren und einen Kulturwandel positiv zu beeinflussen. Beispielsweise werden hier u.a. Vereinbarungen getroffen bzgl. Dauer von Terminen, Einsatz der Kamera, Ausstattung der Hardware, Kleidung, Pünktlichkeit, Arbeitsergebnisse usw.
 * __Vorlagen (Templates) für sich häufig wiederholende Meeting- und Workshoptypen__ erleichtern die Vorbereitung, Ablaufsplanung und die allseits unbeliebte Nachbereitung (z.B. Export-Vorlagen unter Berücksichtigung der Corporate Identity). Gleichzeitig kann hiermit auch die Erwartung hinsichtlich eines konkreten Arbeitsergebnisses eines Termins manifestiert sein. 
 * Die __Auswahl der passenden Werkzeuge__ ist keine abgeschlossene Handlung. Die digitale Transformation bringt kontinuierliche Veränderungsprozesse mit sich, wovon logischerweise ihre Mitarbeiter im Alltag nicht verschont bleiben. Eine in angemessenem Außmaß regelmäßige Bewertung der eingesetzten Werkzeuge hinsichtlich der Praxisrelevanz ist dabei unumgänglich. Eine wichtige Rolle spielt hierbei auch das Feedback ihrer Mitarbeiter bzgl. Akzeptanz der eingesetzten Lösungen.
 
-### Management & Office <a href="#callToAction" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
+### Management & Office <a href="#kontaktaufnahme" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
 > Mitarbeiter mit starkem organisatorisch orientierten Arbeitsalltag verbringen häufig einen großen Teil ihres Arbeitstages in Abstimmungstermin.
 Der Wert eines Termins ist dabei stark abhängig von der Vorbereitung und der Herangehensweise. Auch die Fragestellung ob ein "Protokoll", das nur den zeitlichen Verlauf darstellt ("Wer hat wann / was gesagt?") wirklich noch ein zeitgemäßes Arbeitsergebnis ist, sollten sie sich stellen. 
 > In wievielen Meetings sitzen Sie täglich wo sie die folgenden Fragen leider mit "Nein" beantworten müßten?
@@ -117,7 +99,7 @@ Der Wert eines Termins ist dabei stark abhängig von der Vorbereitung und der He
 
 <hr>
 
-### Sales & Consulting <a href="#callToAction" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
+### Sales & Consulting <a href="#kontaktaufnahme" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
 > Es mag oberflächlich betrachtet schwieriger erscheinen sich ohne physische Präsenz mit anderen Menschen zu vernetzen und wichtige Entscheidungen herbeizuführen. Jedoch sind die Hürden einer Terminfindung durch wegfallende Reisetätigkeiten einfacher zu bewerkstelligen und das Zeitfenster für Kennenlerntermine und Workshops im Tagesplan ist durchaus größer. 
 > 
 > Eine wichtige Fragestellung: 
@@ -128,7 +110,7 @@ Der Wert eines Termins ist dabei stark abhängig von der Vorbereitung und der He
 * Nachbereitung und Export der Arbeitsergebnisse mit Fokus auf zeitliche Effizienz
 <hr>
 
-### Projekt Teams <a href="#callToAction" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
+### Projekt Teams <a href="#kontaktaufnahme" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
 > Nicht nur agile und nicht-agile Projektteams, SRE-Teams, DevOps Teams, sondern auch Office Teams müssen im digitalen Arbeitsalltag ihre Arbeitslast steuern, Retrospektiven durchführen, den Arbeitsalltag reflektieren und sich gegenseitig über den aktuellen Progress informieren.
 > Neben Werkzeugen zur Steuerung der Arbeitslast spielen hier auch regelmäßige Synchronisationsabläufe zwischen den Mitarbeitern eine wichtige Rolle.
 * Tägliche bzw. reguläre Statusmeetings (Dailies, Standups) 

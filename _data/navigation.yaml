@@ -3,8 +3,8 @@ main:
     url: /leistungen
   - title: "Herausforderungen"
     url: /herausforderungen
-  - title: "Über mich"
-    url: /ueber-mich
+  - title: "Über uns"
+    url: /ueber-uns
   - title: "Kontakt"
     url: /kontakt
 

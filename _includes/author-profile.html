@@ -30,7 +30,7 @@
       </div>
     {% endif %}
   </div>
-
+  {% if author.follow %}
   <div class="author__urls-wrapper">
     <button class="btn btn--inverse">{{ site.data.ui-text[site.locale].follow_label | remove: ":" | default: "Follow" }}</button>
     <ul class="author__urls social-icons">
@@ -252,5 +252,6 @@
       {% include author-profile-custom-links.html %}
     </ul>
   </div>
+  {% endif %}
 </div>
 {% endfor %}

@@ -17,46 +17,23 @@ header: # entweder overlay color oder image
 #       url: "https://github.com/mmistakes/minimal-mistakes/"
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: Meistern Sie die digitalisierte Zusammenarbeit in der Interaktion mit Kollegen und Kunden im Büro-, Projekt- und Meetingalltag! 
-intro: 
-  - excerpt: |
-      Die Zusammenarbeit im digitalisierten Büro gestaltet sich anders als im Präsenzmodus. Unsere Arbeisphilosophien haben sich über Jahrzehnte hinweg implizit in der Gesellschaft verankert und werden durch den Einsatz digitaler Werkzeuge komplett auf den Kopf gestellt. 
+#intro: 
+#  - excerpt: |
 
-      Die Vielzahl an cloudbasierten Meeting-, Whiteboard-, Zeichen-, Dokumentationswerkzeuge entfalten ihr eigentliches Potenzial nicht von selbst. Zum Erlernen effizienter Abläufe in dieser neuen Welt braucht es Hilfestellungen, Leitplanken und eine Begleitung dieses kontinierlichen Lernprozesses. 
 
-      [Covid-19](https://de.wikipedia.org/wiki/COVID-19) hat uns all das seit Beginn 2020 sehr kurzfristig bewusst gemacht und die Digitalisierung des Büroalltags nachhaltig beschleunigt. Aber haben wir wirklich das Potenzial bzgl. Effektivität und Effizienz bereits ausgeschöpft und nutzen diese neuen Werkzeuge selbstbewusst im Alltag? 
+      
 # <br>[Habe ich ihr Interesse geweckt?](#link){: .btn .btn--warning}
-feature_row:
-  - image_path: assets/images/portfolio-office.png
-    alt: "Anforderungen an digitale Kollaboration von Office Teams"
-    title: "Management & Office"
-    excerpt: Zusammenarbeit zwischen Office, Verwaltung und Führungskräften
-    url: "zielgruppen#office-teams"
-    btn_label: "Mehr lesen"
-    btn_class: "btn--primary"
-  - image_path: assets/images/portfolio-office.png
-    alt: "Anforderungen von Mitarbeitern mit Kundenkontakt"
-    title: Sales & Consulting
-    excerpt: Endkundenkontakt, Kennenlern- und Vertriebstermine, Workshops
-    url: "zielgruppen#sales--consulting"
-    btn_label: "Mehr lesen"
-    btn_class: "btn--primary"
-  - image_path: assets/images/portfolio-office.png
-    alt: "Anforderungen von Projektteams"
-    title: Projekt Teams
-    excerpt:  Abläufe zwischen Mitarbeitern aus agilen oder nicht-agilen Projektteams
-    url: "zielgruppen#projekt-teams"
-    btn_label: "Mehr lesen"
-    btn_class: "btn--primary"
-  - image_path: assets/images/portfolio-office.png
-    alt: "Begleitung von Unternehmen"
-    title: Unternehmen
-    excerpt: Erstellung von Meetingleitfäden, Workshopvorlagen und Werkzeugauswahl.
-    url: "zielgruppen#unternehmen"
-    btn_label: "Mehr lesen"
-    btn_class: "btn--primary"
+
 ---
 
-{% include feature_row id="intro" type="center" %}
+{% include feature_row id="intro" %}
 
-{% include feature_row id="feature_row" %}
-
+> Die Zusammenarbeit im digitalisierten Büroalltag gestaltet sich anders als im Präsenzmodus. Unsere Arbeisphilosophien haben sich über Jahrzehnte hinweg implizit in der Gesellschaft verankert und werden durch den Einsatz digitaler Werkzeuge komplett auf den Kopf gestellt. 
+> [Covid-19](https://de.wikipedia.org/wiki/COVID-19) hat uns all das seit Beginn 2020 sehr kurzfristig bewusst gemacht und die Digitalisierung des Büroalltags nachhaltig beschleunigt. Aber haben wir wirklich das __Potenzial bzgl. Effektivität und Effizienz__ bereits ausgeschöpft und nutzen diese neuen Werkzeuge selbstbewusst im Alltag? 
+> 
+>
+[Lesen Sie hier über die Herausforderungen im digitalen Büroalltag](/herausforderungen){: .text-center .btn .btn--primary .btn--large style="color: white; width:100%"}
+>
+> Die Vielzahl an cloudbasierten Meeting-, Whiteboard-, Zeichen-, Dokumentationswerkzeuge entfalten ihr eigentliches Potenzial nicht von selbst. Zum Erlernen effizienter Abläufe in dieser neuen Welt braucht es Hilfestellungen, Leitplanken und eine Begleitung dieses kontinierlichen Lernprozesses. Nur durch fundiertes __methodisches Wissen__ und __Selbstbewusstsein ihrer Mitarbeiter und Kollegen__ entfalten diese Werkzeuge ihr volles Potenzial.
+>
+[Vereinbaren Sie ein kostenloses Beratungsgespräch](/leistungen){: .text-center .btn .btn--primary .btn--x-large style="color: white; width:100%"}

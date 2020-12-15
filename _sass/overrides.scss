@@ -26,3 +26,20 @@ h2.archive__item-title {
 .feature__wrapper {
    // display: flex; //macht layout bei kleinen devices kaputt
 }
+
+span.table-highlight {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.table-highlight-bright {
+    background-color: #f8ffff //#e4f1f1;
+}
+
+.table-highlight-medium {
+    background-color: #e5efef;
+}
+
+.table-highlight-dark {
+    background-color: #c0d7d7;
+}

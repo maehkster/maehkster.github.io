@@ -18,24 +18,25 @@ header: # entweder overlay color oder image
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: "" 
 feature_row:
-  - image_path: assets/images/small-small-small-set-silhouettes-men-women-standing-260nw-1369303289.png
-    alt: "Kostenloses Beratungsgespräch"
+  - # image_path: assets/images/small-small-small-set-silhouettes-men-women-standing-260nw-1369303289.png
+    # alt: "Kostenloses Beratungsgespräch"
     title: "Kostenloses <br>Beratungsgespräch"
     excerpt: "Kostenloses Gespräch zur Bewertung der Ausgangssituation in ihrer Organisation"
-    url: "#test-link"
+    url: "/leistungen#analyse"
     btn_label: "Mehr lesen"
     btn_class: "btn--primary"
-  - image_path: /assets/images/small-small-small-set-silhouettes-men-women-standing-260nw-1369303289.png
-    alt: "Coaching 'Digitale Kollaboration'"
+  - # image_path: /assets/images/small-small-small-set-silhouettes-men-women-standing-260nw-1369303289.png
+    # alt: "Coaching 'Digitale Kollaboration'"
     title: Coaching <br> 'Digitale Kollaboration'
     excerpt: "Ergebnisorientierte Workshops & Kundentermine, Tools, Netiquette, Methodenwissen"
-    url: "#test-link"
+    url: "/leistungen#coaching"
     btn_label: "Mehr lesen"
     btn_class: "btn--primary"
-  - image_path: /assets/images/small-small-small-set-silhouettes-men-women-standing-260nw-1369303289.png
+  - # image_path: /assets/images/small-small-small-set-silhouettes-men-women-standing-260nw-1369303289.png
+    # alt: "Beratung Digitale Arbeitskultur'"
     title: Beratung <br> 'Digitale Arbeitskultur'
     excerpt:  Erstellung von Leitlinien und Netiquette(n) <br>und Beratung bzgl. Werkzeugauswahl
-    url: "#test-link"
+    url: "/leistungen#unternehmen"
     btn_label: "Mehr lesen"
     btn_class: "btn--primary"
 ---
@@ -43,8 +44,9 @@ feature_row:
 > Viele Trainer suggerieren, dass man entweder Psychologie, BWL, Mediendesign oder Flipchart-Kunde studiert haben muss, um den Umgang mit digitalen Werkzeugen zu erlernen. 
 > Wenn das wahr wäre, sollten wir uns fragen wie wir neue Mitarbeiter, Auszubildende und Studenten in Zukunft in die Arbeitsweisen und -philosophien in unseren Unternehmen ohne externe Unterstützung einweisen wollen. 
 
-<hr>
-<div class="text-center"><h1>Portfolio 'Digitale-Kollaboration.de'</h1></div>
+{% include kontaktaufnahme.markdown %}
+
+<div class="text-center" id="portfolio"><h1>Portfolio 'Digitale-Kollaboration.de'</h1></div>
 {% include feature_row id="feature_row"  %}
 
 > Eine Digitale Transformation kann nur gelingen, wenn Organisationen und Menschen befähigt werden ohne Hilfestellung den Alltag produktiver bewerkstelligen zu können.
@@ -53,27 +55,40 @@ feature_row:
 
 Die Fortbildungsangebote sind in folgende Kategorien eingeteilt, um auf die jeweiligen Bedürfnisse ihrer Kollegen eingehen zu können. Grundsätzlich ähneln sich die Abläufe in der ersten Hälfte der Fortbildung (Einführung, Allgemeine Abläufe in Online Meetings). In der zweiten Hälfte wird der Schwerpunkt, dann auf die Besonderheiten im Arbeitsalltag der Zielgruppen gelegt.
 
+<span id="analyse"/>
+## Kostenloses Beratungsgespräch zur Bewertung ihrer Ausgangslage <a href="#kontaktaufnahme" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
+Zur Orientierung und Bedarfsanalyse wird ein initiales Beratungsgespräch empfohlen. 
+* Analyse und Bewertung der Ausgangssituation
+* Empfehlung passender Maßnahmen für Sie und ihre Mitarbeiter
+* Anpassung / Konfiguration der Beratungsleistung an ihre Bedürfnisse
 
-
-Kacheln
-## Kostenloses Beratungsgespräch zur Bewertung ihrer Ausgangslage
-## Coaching Paket 'Digitale Kollaboration'
+<span id="coaching"/>
+## Coaching Paket 'Digitale Kollaboration' <a href="#kontaktaufnahme" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
 Grundsätzlich ähneln sich die Abläufe in der ersten Hälfte der Fortbildung (Einführung, Allgemeine Abläufe in Online Meetings). In der zweiten Hälfte der Lernbegleitung wird der Schwerpunkt auf die Besonderheiten im konkreten Arbeitsalltag der Zielgruppen gelegt.
 
 Ziel: Erlangen von Selbstbewusstsein und Methodenkompetenz in der digitalen Zusammenarbeit in 2 Monaten
-Methodik: 8 Coaching Termine mit allgemeinen Lerninhalten und Teilnehmerspezifischen Inhalten
+Methodik: 6 Coaching Termine mit allgemeinen Lerninhalten und Teilnehmerspezifischen Inhalten
 
-|<span style="display: block; background-color: red; color: blue; width: 100%; height: 100%"> Termin 1 - Basics </span> | Erwartungshaltung, Netiquette(n), Werkzeugkategorien, Praxisübung|
-| Termin 2 - Meetings & Workshops (1/2) | Vorbereitung, Vorlagen, Onboarding, Vorstellung, Methoden zur Interaktion |
-| Termin 3 - Meetings & Workshops (2/2)| Zielsetzung, Agenda, Whiteboard-Methodik, Export der Arbeitsergebnisse|
-| Termin 4 - Zielgruppenspezifisch | Arbeitsabläufe für Projekt-Teams, Office, Managment, Consulting, Sales|
-| Termin 5 - Zielgruppenspezifisch | Arbeitsabläufe für Projekt-Teams, Office, Managment, Consulting, Sales)|
-| Termin 6 - Hilfe zur Selbsthilfe | Lernbegleitung, Vertiefung, Spezialisierung, aktuelle Ereignisse, Wiederholung|
-| Termin 7 - Hilfe zur Selbsthilfe | Lernbegleitung, Vertiefung, Spezialisierung, aktuelle Ereignisse, Wiederholung|
-| Termin 8 - Hilfe zur Selbsthilfe | Lernbegleitung, Vertiefung, Spezialisierung, aktuelle Ereignisse, Wiederholung|
+| Lektion | Thema | Inhalte |
+| <span class="table-highlight table-highlight-bright">1</span>|<span class="table-highlight table-highlight-bright">__Basics__</span>| <span class="table-highlight table-highlight-bright">Erwartungshaltung, Netiquette(n), Werkzeugkategorien, Praxisübung</span>|
+| <span class="table-highlight table-highlight-bright">2</span>|<span class="table-highlight table-highlight-bright">__Meetings & Workshops (1/2)__</span>| <span class="table-highlight table-highlight-bright">Vorbereitung, Vorlagen, Onboarding, Vorstellung, Methoden zur Interaktion</span>|
+| <span class="table-highlight table-highlight-bright">2</span>|<span class="table-highlight table-highlight-bright">__Meetings & Workshops (2/2)__</span>| <span class="table-highlight table-highlight-bright">Zielsetzung, Agenda, Whiteboard-Methodik, Export der Arbeitsergebnisse</span>|
+| <span class="table-highlight table-highlight-medium">3</span>|<span class="table-highlight table-highlight-medium">__Zielgruppenspezifisch__</span>| <span class="table-highlight table-highlight-medium">Arbeitsabläufe für Projekt-Teams, Office, Managment, Consulting, Sales</span>|
+| <span class="table-highlight table-highlight-medium">3</span>|<span class="table-highlight table-highlight-medium">__Zielgruppenspezifisch__</span>| <span class="table-highlight table-highlight-medium">Arbeitsabläufe für Projekt-Teams, Office, Managment, Consulting, Sales)</span>|
+| <span class="table-highlight table-highlight-dark">4</span>|<span class="table-highlight table-highlight-dark">__Lernbegleitung__</span>| <span class="table-highlight table-highlight-dark">Lernbegleitung, Vertiefung, Spezialisierung, aktuelle Ereignisse, Wiederholung</span>|
+| <span class="table-highlight table-highlight-dark">5 </span>|<span class="table-highlight table-highlight-dark">__Lernbegleitung__</span>| <span class="table-highlight table-highlight-dark">Lernbegleitung, Vertiefung, Spezialisierung, aktuelle Ereignisse, Wiederholung</span>|
+| <span class="table-highlight table-highlight-dark">6</span>|<span class="table-highlight table-highlight-dark">__Lernbegleitung__</span>| <span class="table-highlight table-highlight-dark">Lernbegleitung, Vertiefung, Spezialisierung, aktuelle Ereignisse, Wiederholung</span>|
 
+<span id="unternehmen"/>
+## Beratungsleistung für Unternehmen
+Ein zentral gesteuerter Wandel der Arbeitskultur spielt neben der Begleitung einzelner Mitarbeiter eine große Rolle.
+Eine 'Arbeitskultur' beschreibt die impliziten Abläufe innerhalb einer Organisation, die nicht über direkte disziplinarische Anordnungen oder Klauseln im Arbeitsvertrag abbildbar sind. Ein Kulturwandel kann nur mit Mitwirkung aller Mitglieder einer Organisation gelingen. Haben Sie sich bereits damit auseinandergesetzt, wie Sie Mitarbeiter und Kollegen _freiwillig_ dazu bringen diesen Veränderungsprozess aktiv mitzugestalten?
 
-## Beratung bzgl. Leitlinien, Netiquette, Werkzeugauswahl
+Bei dieser Beratungsleistung geht es vorrangig um folgende Themenstellungen
+* Erstellung von Meetingleitfäden, Netiquette(n), 
+* Evangelisierung dieser Leitfäden über Schulungen und Beratung bzgl. weiterer Vermarktungs- und Skalierungsmaßnahmen
+* Aufbau von Meeting Templates mit Corporate Identiy
+* Auswahl / Bewertung der passenden Werkzeuge für ihre Kollegen und Mitarbeiter
 
 
 

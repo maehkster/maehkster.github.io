@@ -6,6 +6,7 @@ excerpt: "Minimal Mistakes is a flexible two-column Jekyll theme."
 author_profile: true
 authors:
 - name: "Silvana Heiß"
+  follow: false
   avatar: "/assets/images/silvana.jpg"
   bio: |
         > Selbstständiger Coach,
@@ -13,6 +14,7 @@ authors:
         > Business Travel Consultant
 #  location: "München, Bayern, Deutschland"
 - name: "Michael Heiß"
+  follow: false
   avatar: "/assets/images/michael-edit3.jpg"
   bio: |
         > Management-Consultant, IT-Architect,

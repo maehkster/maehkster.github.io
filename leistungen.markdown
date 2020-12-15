@@ -11,7 +11,7 @@ title: "Hilfe zur Selbstbehilfe durch Lernbegleitung"
 header: # entweder overlay color oder image
   overlay_color: "#0f4f4f" #0AA
   overlay_filter: "rgba(0, 60, 60, 0.65)" #"0.8" rgba(20, 100, 100, 0.5), url(/assets/images/unsplash-image-2.jpg)
-  overlay_image: /assets/images/unsplash-domenico-loia-image-3.png #unsplash-image-2.jpg
+  overlay_image: /assets/images/unsplash-domenico-loia-image-3.jpg #unsplash-image-2.jpg
 #   actions:
 #     - label: "Download"
 #       url: "https://github.com/mmistakes/minimal-mistakes/"

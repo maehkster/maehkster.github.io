@@ -56,6 +56,7 @@ feature_row:
 Die Fortbildungsangebote sind in folgende Kategorien eingeteilt, um auf die jeweiligen Bedürfnisse ihrer Kollegen eingehen zu können. Grundsätzlich ähneln sich die Abläufe in der ersten Hälfte der Fortbildung (Einführung, Allgemeine Abläufe in Online Meetings). In der zweiten Hälfte wird der Schwerpunkt, dann auf die Besonderheiten im Arbeitsalltag der Zielgruppen gelegt.
 
 <span id="analyse"/>
+
 ## Kostenloses Beratungsgespräch zur Bewertung ihrer Ausgangslage <a href="#kontaktaufnahme" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
 Zur Orientierung und Bedarfsanalyse wird ein initiales Beratungsgespräch empfohlen. 
 * Analyse und Bewertung der Ausgangssituation
@@ -63,31 +64,40 @@ Zur Orientierung und Bedarfsanalyse wird ein initiales Beratungsgespräch empfoh
 * Anpassung / Konfiguration der Beratungsleistung an ihre Bedürfnisse
 
 <span id="coaching"/>
-## Coaching Paket 'Digitale Kollaboration' <a href="#kontaktaufnahme" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
-Grundsätzlich ähneln sich die Abläufe in der ersten Hälfte der Fortbildung (Einführung, Allgemeine Abläufe in Online Meetings). In der zweiten Hälfte der Lernbegleitung wird der Schwerpunkt auf die Besonderheiten im konkreten Arbeitsalltag der Zielgruppen gelegt.
 
-Ziel: Erlangen von Selbstbewusstsein und Methodenkompetenz in der digitalen Zusammenarbeit in 2 Monaten
-Methodik: 6 Coaching Termine mit allgemeinen Lerninhalten und Teilnehmerspezifischen Inhalten
+## Coaching Paket 'Digitale Kollaboration' <a href="#kontaktaufnahme" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
+Das Coaching Paket 'Digitale Kollaboration' ist eine Maßnahme, um die grundlegenden Prinzipien der digitalen Zusammenarbeit in einer Lerngruppe zu erlernen. Ausgerichtet auf ca. 10 Teilnehmer werden die grundlegenden Interaktionsmöglichkeiten mit digitalen Kollaborationswerkzeugen dargestellt. 
+> __Werteversprechen:__ | _Erlangen von Selbstbewusstsein, Methodenkompetenz, Effizienz und Effektivität in der digitalen Zusammenarbeit in 2 Monaten_
+> __Vorgehensweise:__|_8 Coaching Termine mit allgemeinen Lerninhalten und teilnehmerspezifischen Inhalten_
+> __Do's:__|_Im Kollektiv lernen, Selbstbewusstein aufbauen, Kreativität fördern, experimentieren, Kultur formen_
+> __Don'ts:__|_Digitale Kollaboration als unerreichbares abstraktes Ziel darstellen_
+
+
+
+Diese Lernbegleitung soll Ihren Mitarbeitern und Kollegen als Startrampe für die Weiterentwicklung dienen. Abstrakte Prinzipien, organisationspsychologische Thesen werden dabei von den Teilnehmenden ferngehalten, um den Fokus auf das Wesentliche zu lenken: "Wie arbeiten wir als Kollektiv in Zukunft zusammen". 
+
+
 
 | Lektion | Thema | Inhalte |
 | <span class="table-highlight table-highlight-bright">1</span>|<span class="table-highlight table-highlight-bright">__Basics__</span>| <span class="table-highlight table-highlight-bright">Erwartungshaltung, Netiquette(n), Werkzeugkategorien, Praxisübung</span>|
 | <span class="table-highlight table-highlight-bright">2</span>|<span class="table-highlight table-highlight-bright">__Meetings & Workshops (1/2)__</span>| <span class="table-highlight table-highlight-bright">Vorbereitung, Vorlagen, Onboarding, Vorstellung, Methoden zur Interaktion</span>|
-| <span class="table-highlight table-highlight-bright">2</span>|<span class="table-highlight table-highlight-bright">__Meetings & Workshops (2/2)__</span>| <span class="table-highlight table-highlight-bright">Zielsetzung, Agenda, Whiteboard-Methodik, Export der Arbeitsergebnisse</span>|
-| <span class="table-highlight table-highlight-medium">3</span>|<span class="table-highlight table-highlight-medium">__Zielgruppenspezifisch__</span>| <span class="table-highlight table-highlight-medium">Arbeitsabläufe für Projekt-Teams, Office, Managment, Consulting, Sales</span>|
-| <span class="table-highlight table-highlight-medium">3</span>|<span class="table-highlight table-highlight-medium">__Zielgruppenspezifisch__</span>| <span class="table-highlight table-highlight-medium">Arbeitsabläufe für Projekt-Teams, Office, Managment, Consulting, Sales)</span>|
-| <span class="table-highlight table-highlight-dark">4</span>|<span class="table-highlight table-highlight-dark">__Lernbegleitung__</span>| <span class="table-highlight table-highlight-dark">Lernbegleitung, Vertiefung, Spezialisierung, aktuelle Ereignisse, Wiederholung</span>|
-| <span class="table-highlight table-highlight-dark">5 </span>|<span class="table-highlight table-highlight-dark">__Lernbegleitung__</span>| <span class="table-highlight table-highlight-dark">Lernbegleitung, Vertiefung, Spezialisierung, aktuelle Ereignisse, Wiederholung</span>|
+| <span class="table-highlight table-highlight-bright">3</span>|<span class="table-highlight table-highlight-bright">__Meetings & Workshops (2/2)__</span>| <span class="table-highlight table-highlight-bright">Zielsetzung, Agenda, Whiteboard-Methodik, Export der Arbeitsergebnisse</span>|
+| <span class="table-highlight table-highlight-medium">4</span>|<span class="table-highlight table-highlight-medium">__Zielgruppenspezifisch__</span>| <span class="table-highlight table-highlight-medium">Arbeitsabläufe für Projekt-Teams, Office, Managment, Consulting, Sales</span>|
+| <span class="table-highlight table-highlight-medium">5</span>|<span class="table-highlight table-highlight-medium">__Zielgruppenspezifisch__</span>| <span class="table-highlight table-highlight-medium">Arbeitsabläufe für Projekt-Teams, Office, Managment, Consulting, Sales</span>|
 | <span class="table-highlight table-highlight-dark">6</span>|<span class="table-highlight table-highlight-dark">__Lernbegleitung__</span>| <span class="table-highlight table-highlight-dark">Lernbegleitung, Vertiefung, Spezialisierung, aktuelle Ereignisse, Wiederholung</span>|
+| <span class="table-highlight table-highlight-dark">7</span>|<span class="table-highlight table-highlight-dark">__Lernbegleitung__</span>| <span class="table-highlight table-highlight-dark">Lernbegleitung, Vertiefung, Spezialisierung, aktuelle Ereignisse, Wiederholung</span>|
+| <span class="table-highlight table-highlight-dark">8</span>|<span class="table-highlight table-highlight-dark">__Lernbegleitung__</span>| <span class="table-highlight table-highlight-dark">Lernbegleitung, Vertiefung, Spezialisierung, aktuelle Ereignisse, Wiederholung</span>|
 
 <span id="unternehmen"/>
-## Beratungsleistung für Unternehmen
+
+## Beratungsleistung für Unternehmen <a href="#kontaktaufnahme" style="font-size: small"> <i class="fas fa-level-up-alt" style="font-size: medium"></i>zum Anfang</a>
 Ein zentral gesteuerter Wandel der Arbeitskultur spielt neben der Begleitung einzelner Mitarbeiter eine große Rolle.
 Eine 'Arbeitskultur' beschreibt die impliziten Abläufe innerhalb einer Organisation, die nicht über direkte disziplinarische Anordnungen oder Klauseln im Arbeitsvertrag abbildbar sind. Ein Kulturwandel kann nur mit Mitwirkung aller Mitglieder einer Organisation gelingen. Haben Sie sich bereits damit auseinandergesetzt, wie Sie Mitarbeiter und Kollegen _freiwillig_ dazu bringen diesen Veränderungsprozess aktiv mitzugestalten?
 
 Bei dieser Beratungsleistung geht es vorrangig um folgende Themenstellungen
 * Erstellung von Meetingleitfäden, Netiquette(n), 
 * Evangelisierung dieser Leitfäden über Schulungen und Beratung bzgl. weiterer Vermarktungs- und Skalierungsmaßnahmen
-* Aufbau von Meeting Templates mit Corporate Identiy
+* Aufbau von Meeting Templates mit Corporate Identity
 * Auswahl / Bewertung der passenden Werkzeuge für ihre Kollegen und Mitarbeiter
 
 

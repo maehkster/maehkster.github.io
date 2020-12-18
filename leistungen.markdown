@@ -42,8 +42,9 @@ feature_row:
 ---
 
 > Die wenigen Dienstleister auf diesem Markt suggerieren teilweise, dass man entweder Psychologie, BWL, Mediendesign oder Flipchart-Kunde studiert haben muss, um den Umgang mit digitalen Werkzeugen zu erlernen. 
-> __Wenn das wahr wäre, sollten wir uns fragen, wie wir die 18 Millionen Kollegen, neue Mitarbeiter, Auszubildende und Studenten in den Büros in Zukunft in die Arbeitsweisen und -philosophien in unseren Unternehmen ohne externe Unterstützung einweisen wollen.__ Die Konzeptebene ist wichtig, v.a. um den notwendigen Führungswandel einzuleiten, aber hilft sie wirklich jedem einzelnen im Alltag?
+> __Wenn das wahr wäre, sollten wir uns fragen, wie wir die Millionen von Kollegen, neuen Mitarbeitern, Auszubildenden und Studenten in unseren Büros in Zukunft in die Arbeitsweisen und -philosophien in unseren Unternehmen einweisen wollen.__ 
 >
+> Die Konzeptebene ist wichtig, v.a. um den notwendigen Führungswandel einzuleiten, aber hilft sie wirklich jedem Einzelnen im Alltag?
 > Eine digitale Transformation profitiert stark vom Abbau von Wissens-Silos. Wissensfluss bzw. eine kontinuierliche Verbesserung innerhalb der Organisation zahlen stark auf den Lernfortschritt einer Organisation ein. 
 >
 > Daher sind eintägige Seminare zum Festpreis, buchbare Video-Kurse und Methodenbaukästen sicher ein praktikables Mittel, um sich einen Überblick zu verschaffen oder "mitreden" zukönnen ([https://de.wikipedia.org/wiki/Cargo-Kult#Metaphorischer_Begriffsgebrauch](Cargo-Kult))... Ohne Praxis und kontinuierliche Reflexion ist das "Gehörte" allerdings wertlos (in Anlehnung an [Bloom's Taxonomy](https://en.wikipedia.org/wiki/Bloom%27s_taxonomy#Knowledge)). Das Lernziel wird erreicht, wenn jeder sich auf einen praxisorientierten und kontinuierlichen Lernprozess einlässt. Ein langer Weg mit wenigen Abkürzungen... 

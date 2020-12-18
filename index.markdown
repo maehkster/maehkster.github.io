@@ -7,7 +7,7 @@ author_profile: false
 
 title: "Selbstbewusst im digitalisierten Büroalltag"
 # permalink: /splash-page/
-# date: 2016-03-23T11:48:41-04:00
+# date: 2020-12-23T11:48:41-04:00
 header: # entweder overlay color oder image
   overlay_color: "#0f4f4f" #0AA
   overlay_filter: "rgba(0, 60, 60, 0.65)" #"0.8" rgba(20, 100, 100, 0.5), url(/assets/images/unsplash-image-2.jpg)
@@ -28,8 +28,12 @@ excerpt: Meistern Sie die digitalisierte Zusammenarbeit in der Interaktion mit K
 
 {% include feature_row id="intro" %}
 
-> Die Zusammenarbeit im digitalisierten Büroalltag gestaltet sich anders als im Präsenzmodus. Unsere Arbeisphilosophien haben sich über Jahrzehnte hinweg implizit in der Gesellschaft verankert und werden durch den Einsatz digitaler Werkzeuge komplett auf den Kopf gestellt. 
-> Aber haben wir wirklich das __Potenzial bzgl. Effektivität und Effizienz__ bereits ausgeschöpft und nutzen diese neuen Werkzeuge selbstbewusst im Alltag? 
+> Die Zusammenarbeit im digitalisierten Büroalltag gestaltet sich anders als im Präsenzmodus. 
+> 
+> Unsere Arbeitsphilosophien haben sich über Jahrzehnte hinweg implizit in der Gesellschaft verankert und werden durch den Einsatz digitaler Werkzeuge komplett auf den Kopf gestellt. 
+>
+> Aber haben wir wirklich das __Potenzial bzgl. Effektivität und Effizienz__ bereits ausgeschöpft?
+>
 > [Lesen Sie _hier_ über die Herausforderungen im digitalen Büroalltag](/herausforderungen)
 
 {% include kontaktaufnahme.markdown %}

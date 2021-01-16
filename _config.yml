@@ -27,7 +27,7 @@ comments:
   provider: "staticman_v2" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   staticman:
     branch: "main" # "master"
-    endpoint: "https://digitale-kollaboration-comment.herokuapp.com/v3/entry/github/"
+    endpoint: "https://digitale-kollaboration-comment.herokuapp.com/v2/entry/"
 
 defaults:
   # _posts

@@ -61,7 +61,7 @@
                        <div class="js-comments">
                         {% if site.data.comments[page.slug] %}
                           <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Kommentare" }}</h4>
-                          {% assign comments = site.data.comments[page.slug] | sort %}
+                          {% assign comments = site.data.comments[page.slug] | sort | reverse %}
             
                           {% for comment in comments %}
                             {% assign email = comment[1].email %}

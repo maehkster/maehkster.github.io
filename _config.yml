@@ -20,6 +20,13 @@ site: test.digitale-kollaboration.de #https://maehkster.github.io
 # logo: "/assets/images/..."
 # Überschreibt "title" masthead_title: "My Title"
 #show_date: true # Post Datum
+repository: maehkster/maehkster.github.io
+comments:
+  provider: "staticman_v2" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
+  staticman:
+    branch: "main" # "master"
+    endpoint: "https://https://digitale-kollaboration-comment.herokuapp.com/entry/"
+
 defaults:
   # _posts
   - scope:
@@ -32,6 +39,7 @@ defaults:
       comments: true
       share: true
       related: true
+
 #search: true
 #social:
 #  type:  # Person or Organization (defaults to Person)
@@ -72,7 +80,6 @@ footer:
 #theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.21.0"
 minimal_mistakes_skin: "contrast" #"default"  "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum" "sunrise"
-defaults:
 
 plugins:
   - jekyll-include-cache

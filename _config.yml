@@ -20,12 +20,12 @@ site: test.digitale-kollaboration.de #https://maehkster.github.io
 # logo: "/assets/images/..."
 # Überschreibt "title" masthead_title: "My Title"
 #show_date: true # Post Datum
-repository: maehkster/maehkster.github.io
+repository: "maehkster/maehkster.github.io"
 comments:
   provider: "staticman_v2" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   staticman:
     branch: "main" # "master"
-    endpoint: "https://https://digitale-kollaboration-comment.herokuapp.com/entry/"
+    endpoint: "https://digitale-kollaboration-comment.herokuapp.com/entry/github/"
 
 defaults:
   # _posts
@@ -37,7 +37,7 @@ defaults:
       author_profile: true
       read_time: true
       comments: true
-      share: true
+      share: false
       related: true
 
 #search: true

@@ -1,11 +1,5 @@
 ---
 title: "Test Blogartikel"
-categories:
-  - Digitalisierung
-tags:
-  - Digitalisierung
-  - Lernen
-  - Kompetenzentwicklung
 ---
 
 asdfadsfadsf

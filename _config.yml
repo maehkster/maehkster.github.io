@@ -20,12 +20,14 @@ site: test.digitale-kollaboration.de #https://maehkster.github.io
 # logo: "/assets/images/..."
 # Überschreibt "title" masthead_title: "My Title"
 #show_date: true # Post Datum
+# set JEKYLL_ENV=production to see comments...  development is default
+# $ JEKYLL_ENV=production sudo bundle exec jekyll serve
 repository: "maehkster/maehkster.github.io"
 comments:
   provider: "staticman_v2" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   staticman:
     branch: "main" # "master"
-    endpoint: "https://digitale-kollaboration-comment.herokuapp.com/v2/entry/"
+    endpoint: "https://digitale-kollaboration-comment.herokuapp.com/v2/entry/github/"
 
 defaults:
   # _posts

@@ -44,3 +44,27 @@ span.table-highlight {
 .table-highlight-dark {
     background-color: #c0d7d7;
 }
+
+.page__comments-title {
+    margin-top: 1em;
+    margin-bottom: 10px;
+    padding-top: 0.7rem;
+    font-size: 0.75em;
+    border-top: 1px dashed #bfbfbf;
+    text-transform: uppercase;
+}
+
+form {
+    margin: 0 0 5px 0;
+    padding: 0.5em;
+    background-color: $form-background-color;
+}
+.collapsible-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+}
+.collapsible-button {
+    width:100%;
+}

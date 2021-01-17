@@ -1,14 +1,14 @@
 <div class="page__comments">
-    {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Comments" }}{% endcapture %}
+    {% capture comments_label %}{{ site.data.ui-text[site.locale].comments_label | default: "Kommentare" }}{% endcapture %}
     {% case site.comments.provider %}
       {% when "staticman_v2" %}
         <section id="static-comments">
           {% if site.repository and site.comments.staticman.branch %}
-  
+
             <!-- Start new comment form -->
-            <div class="page__comments-form">
-              <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_label | default: "Leave a Comment" }}</h4>
-              <p class="small">{{ site.data.ui-text[site.locale].comment_form_info | default: "Your email address will not be published. Required fields are marked" }} <span class="required">*</span></p>
+            <p></p>
+            <a class="text-center btn btn--primary btn--medium collapsible-button">Klicke hier und hinterlasse einen Kommentar!</a>
+            <div class="page__comments-form class collapsible-content">
               <form id="new_comment" class="page__comments-form js-form form" method="post" action="{{ site.comments.staticman.endpoint | default: 'https://api.staticman.net/v2/entry/' }}{{ site.repository }}/{{ site.comments.staticman.branch }}/comments">
                 <div class="form__spinner">
                   <i class="fas fa-spinner fa-spin fa-3x fa-fw"></i>
@@ -16,20 +16,20 @@
                 </div>
   
                 <div class="form-group">
-                  <label for="comment-form-message">{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Comment" }} <small class="required">*</small></label>
+                  <label for="comment-form-message" class="small">{{ site.data.ui-text[site.locale].comment_form_comment_label | default: "Dein Kommentar" }} <small class="required">*</small></label>
                   <textarea type="text" rows="3" id="comment-form-message" name="fields[message]" tabindex="1"></textarea>
                   <div class="small help-block"><a href="https://daringfireball.net/projects/markdown/">{{ site.data.ui-text[site.locale].comment_form_md_info | default: "Markdown is supported." }}</a></div>
                 </div>
                 <div class="form-group">
-                  <label for="comment-form-name">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} <small class="required">*</small></label>
+                  <label for="comment-form-name" class="small">{{ site.data.ui-text[site.locale].comment_form_name_label | default: "Name" }} <small class="required">*</small></label>
                   <input type="text" id="comment-form-name" name="fields[name]" tabindex="2" />
                 </div>
                 <div class="form-group">
-                  <label for="comment-form-email">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email address" }} <small class="required">*</small></label>
+                  <label for="comment-form-email" class="small">{{ site.data.ui-text[site.locale].comment_form_email_label | default: "Email (wird nicht veröffentlicht!)" }} <small class="required">*</small></label>
                   <input type="email" id="comment-form-email" name="fields[email]" tabindex="3" />
                 </div>
                 <div class="form-group">
-                  <label for="comment-form-url">{{ site.data.ui-text[site.locale].comment_form_website_label | default: "Website (optional)" }}</label>
+                  <label for="comment-form-url" class="small">{{ site.data.ui-text[site.locale].comment_form_website_label | default: "Website (optional)" }}</label>
                   <input type="url" id="comment-form-url" name="fields[url]" tabindex="4"/>
                 </div>
                 <div class="form-group hidden" style="display: none;">
@@ -57,25 +57,48 @@
             <!-- End new comment form -->
             {% if site.reCaptcha.siteKey %}<script async src="https://www.google.com/recaptcha/api.js"></script>{% endif %}
 
-                       <!-- Start static comments -->
-                       <div class="js-comments">
-                        {% if site.data.comments[page.slug] %}
-                          <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Kommentare" }}</h4>
-                          {% assign comments = site.data.comments[page.slug] | sort | reverse %}
-            
-                          {% for comment in comments %}
-                            {% assign email = comment[1].email %}
-                            {% assign name = comment[1].name %}
-                            {% assign url = comment[1].url %}
-                            {% assign date = comment[1].date %}
-                            {% assign message = comment[1].message %}
-                            {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
-                          {% endfor %}
-                        {% endif %}
-                      </div>
-                      <!-- End static comments -->
+            <!-- Start static comments -->
+            <div class="js-comments">
+              {% if site.data.comments[page.slug] %}
+                <h4 class="page__comments-title">{{ site.data.ui-text[site.locale].comments_title | default: "Comments" }}</h4>
+                {% assign comments = site.data.comments[page.slug] | sort  %}
+               
+                {% assign commentarray="" | split: ','  %}
+                {% for comment in comments %}
+                    {% assign commentarray = commentarray | push: comment[1] %}
+                {% endfor %}
+                {% assign commentarray = commentarray | sort: 'date' | reverse %}
 
-            {% endif %}
+                {% for comment in commentarray %}
+                  {% assign email = comment.email %}
+                  {% assign name = comment.name %}
+                  {% assign url = comment.url %}
+                  {% assign date = comment.date %}
+                  {% assign message = comment.message %}
+                  {% include comment.html index=forloop.index email=email name=name url=url date=date message=message %}
+                {% endfor %}
+              {% endif %}
+            </div>
+            <!-- End static comments -->
+  
+          {% endif %}
         </section>
+
     {% endcase %}
   </div>
+  <script>
+    var coll = document.getElementsByClassName("collapsible-button");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.maxHeight){
+            content.style.maxHeight = null; 
+        } else {
+            content.style.maxHeight = content.scrollHeight + "px";
+        } 
+    });
+    }
+  </script>

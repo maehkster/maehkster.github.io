@@ -1,7 +1,0 @@
-main:
-  - title: Blog
-    url: /blog
-  - title: "Über mich"
-    url: /ueber-mich
-  - title: Leistungen
-    url: /leistungen

@@ -1,11 +1,7 @@
 main:
   - title: Blog
     url: /blog
+  - title: "Über mich"
+    url: /ueber-mich
   - title: Leistungen
     url: /leistungen
-  - title: "Herausforderungen"
-    url: /herausforderungen
-  - title: "Über uns"
-    url: /ueber-uns
-  - title: "Kontakt"
-    url: /kontakt

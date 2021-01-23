@@ -23,6 +23,8 @@ cover_image: "/assets/images/page-title-bg.jpg"
 
 
 # Build settings
+sass:
+  style: compressed
 markdown: kramdown
 theme: minima
 plugins:

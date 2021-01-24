@@ -270,7 +270,7 @@
 	                position: relative;
 
 	                & a {
-	                    font-size: 18px;
+	                    font-size: 22px; // MFH 14px;
 	                    font-weight: 500;
 	                    color: $white;
 	                    text-transform: capitalize;
@@ -290,7 +290,7 @@
                         }
 
 	                    @media #{$lg} {
-	                        font-size: 14px;
+	                        font-size: 22px;
 	                        padding: 0 5px;
 	                        margin: 0 6px;
 	                    }

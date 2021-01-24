@@ -1,17 +1,15 @@
 #Please use the main menu items under the "text"
 
-- text: Start
+- text: Home
   url: /
   submenu:
-  - text: Digitale Kollaboration
-    url: /index-2
-  - text: Herausforderungen
-    url: index-3
+  # - text: Digitale Kollaboration
+  #   url: /index-2
+  # - text: Herausforderungen
+  #   url: index-3
 - text: Blog
-  url: /blog    
-- text: Über mich
-  url: /about
+  url: /blog
 - text: Dienstleistungen
-  url: /services
+  url: /services   
 - text: Kontakt
   url: /contact

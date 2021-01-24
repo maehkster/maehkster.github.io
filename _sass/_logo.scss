@@ -7,7 +7,20 @@
 
 .logo-text {
     color: $white;
-    font-size: 20px;
-    font-weight: bold;
-    text-shadow: 2px 2px 4px #000000;
+    font-size: 26px;
+}
+.logo-shadow {
+    text-shadow: 1px 1px 4px #666666;
+}
+
+span.logo-text-top {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+span.logo-text-bottom {
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 25px;
 }

@@ -2,7 +2,12 @@
                     <nav class="navbar navbar-expand-lg navbar-light ">
                         <a class="navbar-brand" href="{{site.url}}">
                             <!-- <img src="{{site.logo}}" alt="{{site.title}}"/> -->
-                            <p class="logo-text"><i class="fas fa-chalkboard-teacher" style="font-size: 30px;"> </i>{{site.title}}</p>
+                            <p class="logo-text logo-shadow">
+                                <i class="fas fa-chalkboard-teacher" style="font-size: 50px;">
+                                </i>
+                                <span class="logo-text-top">Digitale</span>
+                                <span class="logo-text-bottom">Kollaboration</span>
+                            </p>
                         </a> 
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="toggler-icon"></span>
@@ -10,7 +15,7 @@
                             <span class="toggler-icon"></span>
                         </button> <!-- navbar toggler -->
 
-                        <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse sub-menu-bar" style="margin-left:250px;" id="navbarSupportedContent">
                             <ul class="navbar-nav m-auto">
     
                                 {% for link in site.data.navigation %}
@@ -27,11 +32,11 @@
                                 {% endif %}
                                  
                                  <li class="nav-item {{active}}">
-                                     <a class="nav-link" href="{{link.url}}">{{link.text}}{% if link.submenu %}  <i class="fal fa-angle-down"></i>{% endif %}</a>
+                                     <a class="nav-link logo-shadow" href="{{link.url}}">{{link.text}}{% if link.submenu %}  <i class="fal fa-angle-down"></i>{% endif %}</a>
                                     {% if link.submenu %}
                                     <ul class="sub-menu">
                                         {% for sublink in link.submenu %}
-                                        <li><a class="nav-link" href="{{sublink.url}}">{{sublink.text}}</a></li>
+                                        <li><a class="nav-link" href="{{sublink.url}}" style="font-size:16px;">{{sublink.text}}</a></li>
                                         {% endfor %}
                                     </ul>
                                     {% endif %}

@@ -1,0 +1,28 @@
+/*===========================
+    CITE css 
+===========================*/
+
+div.cite-container {
+    margin-top: 80px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    //border: 1px solid;
+    box-shadow: -8px -8px 7px #dddddd;
+    background-color: #eceff3;
+}
+
+p.cite {
+    visibility: visible; 
+    animation-duration: 1.2s; 
+    animation-delay: 2s; 
+    //animation-name: fadeInDown;
+}
+
+span.orange{
+    color: $theme-color-2;
+    font-size: 20px;
+}
+p.gray{
+    font-size: 18px;
+    margin-bottom: 20px;
+}

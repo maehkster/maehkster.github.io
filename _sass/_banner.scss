@@ -14,15 +14,15 @@
 
 
 .banner-area{
-	margin-top: 115px;
+	margin-top: 100px; //MFH mehr als 115px;
 	position: relative;
 	z-index: 10;
 	overflow: hidden;
 	@media #{$md} {
-		margin-top: 70px;
+		margin-top: 50px;
 	}
 	@media #{$xs} {
-		margin-top: 70px;
+		margin-top: 90px;
 	}
 	&::before{
 		position: absolute;
@@ -56,7 +56,7 @@
 		top: 0;
 		height: 100%;
 		width: 50%;
-		background-image: url(../images/banner-1.jpg);
+		background-image: url(../images/banner-1-650.jpg);
 		background-size: cover;
 		background-position: right center;
 		background-repeat: no-repeat;
@@ -66,7 +66,7 @@
 		}
 	}
 	& .banner-bg{
-		height: 720px; // MFH: 850px;
+		height: 650px; // MFH: 850px;
 		display: -webkit-flex;
 		display: -moz-flex;
 		display: -ms-flex;
@@ -86,12 +86,12 @@
 				line-height: 70px;
 			}
 			@media #{$md} {
-				font-size: 46px;
-				line-height: 60px;
+				font-size: 50px; // MFH 46px;
+				line-height: 60px; // MFH 60px;
 			}
 			@media #{$xs} {
-				font-size: 29px;
-				line-height: 40px;
+				font-size: 30px;	// MFH 29px;
+				line-height: 50px; // MFH 40px;
 			}
 			@media #{$sm} {
 				font-size: 50px;
@@ -163,6 +163,7 @@
 		animation: scale-up-three linear 15s infinite;
 	}
 	& .banner-shape-2{
+		margin-top: -100px; //MFH war vorher nicht da
 		position: absolute;
 		left: 50px;
 		top: 150px;

@@ -73,6 +73,12 @@
 		display: -o-flex;
 		display: flex;
 		align-items: center;
+		@media #{$xs} {
+			//margin-top: -150px;
+		}
+		@media #{$md} {
+			//margin-top: -250px;
+		}
 	}
 	& .banner-content{
 		overflow: hidden;

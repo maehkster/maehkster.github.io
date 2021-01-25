@@ -2,7 +2,6 @@
 layout: default
 ---
 
-{% include page_header.html %}
 <section class="blog-standard-area blog-details-area pt-100 pb-130">
     <div class="container">
         <div class="row justify-content-center">
@@ -14,13 +13,9 @@ layout: default
                         </div>
                     </div>
                     <div class="blog-sharing d-block d-sm-flex justify-content-between">
-                        <div class="blog-tag">   
-                            <ul>
-                                <li><span>Popular Tag : </span></li>
-                                <li><a href="#">IT Services,</a></li>
-                                <li><a href="#">Technology,</a></li>
-                                <li><a href="#">Services</a></li>
-                            </ul>
+                        <div class="blog-tag">
+                            <p><span>Beliebte Themen...</span></p>
+                            {{site | tag_cloud}}
                         </div>
                         <div class="blog-social">
                             <ul>

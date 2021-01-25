@@ -84,13 +84,13 @@
 					padding-bottom: 26px;
 					margin-bottom: 25px;
 				& .item{
-					padding-left: 90px;
+					// MFH padding-left: 90px;
 					position: relative;
 					@media #{$xs} {
-						padding-left: 80px;
+						// MFH padding-left: 80px;
 					}
 					@media #{$sm} {
-						padding-left: 90px;
+						// MFH padding-left: 90px;
 					}
 					& .title{
 						font-size: 18px;
@@ -430,12 +430,12 @@
 		}
 		& .blog-sharing{
 			background: $white;
-			padding: 38px 30px 0;
+			padding: 0px 30px 0;
 			@media #{$xs} {
-				padding: 38px 10px 0;
+				padding: 0px 10px 0;
 			}
 			@media #{$sm} {
-				padding: 38px 30px 0;
+				padding: 0px 30px 0;
 			}
 
 			& .blog-tag{

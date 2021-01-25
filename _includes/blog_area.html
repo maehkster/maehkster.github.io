@@ -13,9 +13,9 @@
             <div class="col-lg-4 col-md-6 col-sm-8">
                 <div class="blog-item mt-30 wow fadeIn animated" data-wow-duration="1500ms" data-wow-delay="0ms">
                     {% if post.post_image %}
-                    <div class="blog-thumb">
-                       <a href="{{post.url}}"><img class="img-fluid" src="{{post.post_image}}" alt="{{post.title}}"/></a>
-                    </div>
+                    <a href="{{post.url}}"><div class="blog-thumb">
+                       <img class="img-fluid" src="{{post.post_image}}" alt="{{post.title}}"/>
+                    </div></a>
                     {% endif %}
                     <div class="blog-content">
                         <ul>
@@ -25,8 +25,20 @@
                             <li><i class="fal fa-calendar-alt"></i> {{post.date | date_to_long_string}}</li>
                         </ul>
                         <h3 class="title"><a href="{{post.url}}">{{post.title}}</a></h3>
-                        <p>{{post.excerpt | strip_html | truncatewords: "25"}}</p>
-                        <a href="{{post.url}}">View Details <i class="fal fa-long-arrow-right"></i></a>
+                        <a href="{{post.url}}"><p>{{post.excerpt | strip_html | truncatewords: "25"}}</p></a>
+                        {% assign words_per_minute = post.words_per_minute | default: site.words_per_minute | default: 200 %}
+                        {% assign words = post.content | strip_html | number_of_words %}
+                        <p>
+                            <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+                            {% if words < words_per_minute %}
+                                weniger als 1 min Lesezeit
+                            {% elsif words == words_per_minute %}
+                                1 min Lesezeit
+                            {% else %}
+                                {{ words | divided_by: words_per_minute }} min Lesezeit
+                            {% endif %}
+                        </p>   
+                        <a href="{{post.url}}">Weiterlesen... <i class="fal fa-long-arrow-right"></i></a>
                     </div>
                 </div>
             </div>

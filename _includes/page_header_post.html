@@ -1,0 +1,35 @@
+<section class="banner-area page-title bg_cover" style="background-image: url({% if page.header_image %} {{page.header_image}} {% else if page.post_image %}{{page.post_image}} {% endif %});">
+    <div class="banner-bg" style="height: 300px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="page-title-content" style="margin-top: 20px;">
+                        <h3 class="title ">{{page.title}}</h3>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="{{site.url}}">von {{page.author}}</a></li>
+                                
+                                    {% assign words_per_minute = page.words_per_minute | default: site.words_per_minute | default: 200 %}
+                                    {% assign words = page.content | strip_html | number_of_words %}
+                                    <li class="breadcrumb-item">
+                                        <a href="{{site.url}}">
+
+                                        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+                                        {% if words < words_per_minute %}
+                                            weniger als 1 min Lesezeit
+                                        {% elsif words == words_per_minute %}
+                                            1 min Lesezeit
+                                        {% else %}
+                                            {{ words | divided_by: words_per_minute }} min Lesezeit
+                                        {% endif %}
+                                        </a>
+                                    </li>
+
+                            </ol>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

@@ -15,7 +15,7 @@
         <div class="blog-news-item {% if forloop.index == 3 %} none {% endif %}">
             <div class="item">
                 <a href="{{post.url}}"><h5 class="title">{{post.title }}</h5></a>
-                <span>{{post.date | date_to_long_string}}</span>
+                <span>{{post.date | date: "%d.%m.%Y"}}</span>
                 <span>{{post.author}}</span>
             </div>
         </div>

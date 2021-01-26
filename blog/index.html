@@ -21,7 +21,7 @@ title: "Blog"
                         <li><i class="fal fa-user"></i> {{post.author}}</li>
                         {% endif %}
                         {% if post.date %}
-                         <li><i class="fal fa-calendar-alt"></i> {{post.date | date_to_long_string}}</li>
+                         <li><i class="fal fa-calendar-alt"></i> {{post.date | date: "%d.%m.%Y"}}</li>
                         {% endif %}
                     </ul>
                    

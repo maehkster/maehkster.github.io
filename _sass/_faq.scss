@@ -173,7 +173,7 @@
 						}
 					}
 					&.collapsed{
-						color: #8a8a8a;
+						color: $body-text;;
 						background-color: transparent;
 						font-weight: 600;
 						@media #{$lg} {

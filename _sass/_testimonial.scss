@@ -95,7 +95,7 @@
         margin-top: 30px;
     & span{
         font-size: 28px;
-        color: #8a8a8a;
+        color: $body-text;;
         font-weight: 500;
     }
     & ul{
@@ -125,7 +125,7 @@
                 padding-bottom: 0;
                 font-size: 14px;
                 font-weight: 400;
-                color: #8a8a8a;
+                color: $body-text;;
                 padding-right: 55px;
                 padding-top: 40px;
                 padding-bottom: 24px;
@@ -169,7 +169,7 @@
         & .testimonials-content{
             & p{
                 font-size: 14px;
-                color: #8a8a8a;
+                color: $body-text;;
                 line-height: 26px;
                 padding-top: 30px;
 
@@ -242,7 +242,7 @@
                 & span{
                     font-size: 14px;
                     font-weight: 500;
-                    color: #8a8a8a;
+                    color: $body-text;;
                     padding-top: 0;
                 }
             }

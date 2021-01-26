@@ -2,7 +2,7 @@
 layout: post
 title: "Warum dauert ein Meeting immer 60 Minuten?"
 date: 2021-01-25 20:37:13 +0600
-tags: Meeting Netiquette
+tags: Meeting Netiquette Kalender-Management Verhaltensregeln
 categories: [Arbeitskultur]
 post_image: "/assets/images/project/project-1.jpg"
 header_image: "/assets/images/blog_header.jpg"

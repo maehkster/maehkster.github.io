@@ -13,7 +13,7 @@ Für Teams und Organisationen die als "Frischlinge" beginnen ihre Arbeitsweisen 
 ### Digitale Werkzeuge sinnvoll nutzen
 Es gibt eine Vielzahl von unterschiedlichen Werkzeugkategorien. Neben der Schwierigkeit der Auswahl der passenden Werkzeuge, kommen wir in der Realität häufig nicht nur mit den innerhalb der Organisation ausgewählten Werkzeugen in Berührung, sondern auch mit den Werkzeugen von Kunden, Kooperationspartnern und Lieferanten. 
 
-Übersicht über die am häufigsten verwendeten Werkzeuge:
+__Übersicht über die am häufigsten verwendeten Werkzeuge:__
 
 | Werkzeug-Kategorie | Beispiele |
 | ---- | ---- |
@@ -23,6 +23,8 @@ Es gibt eine Vielzahl von unterschiedlichen Werkzeugkategorien. Neben der Schwie
 | Projektmanagement | `Trello, Jira, Asana, Monday, ...` |
 | Digitale Dateiablage | `Nextcloud, Onedrive, Dropbox, Box, ...` |
 | Email | `Outlook, GMail, Notes, ...` |
+
+<div style="margin-top:50px;"></div>
 
 ### Kriterien für die Werkzeugauswahl
 Da jede Werkzeugkategorie eigene Schwerpunkte aufweist (auch wenn bei manchen Werkzeugen mehrere Kategorien abgedeckt werden), sollten Sie neben den funktionalen Anforderungen ("Welche Abläufe werden erleichter? Welche Möglichkeiten bietet das Werkzeug?") auch Qualitätseigenschaften betrachtet werden. Ein wichtiges Thema im europäischen Raum ist dabei der Datenschutz (DSGVO / GDPR) bzw. die Möglichkeit IP (=intellectual property) zu schützen. Die letztgenannte Kategorie an Anforderungen reduziert den Raum der Auswahlmöglichkeiten häufig immens. Gleichzeitig sind Werkzeuge mit hohem Datenschutzfaktor i.d.R. auch funktional weniger umfangreich wie z.B. SaaS Lösungen (Cloud) mit sehr großen Communities. Neben funktionalen und Qualitätseigenschaften, sollte auch die Stabilität des Herstellers und die Stabilität bzw. Größe seines Kundenstamms mit in die Auswahl einbezogen werden.

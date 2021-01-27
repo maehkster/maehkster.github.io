@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Die richtige Auswahl der Kollaborationswerkzeuge"
-date: 2020-12-20 20:37:13 +0600
+date: 2020-11-12 20:37:13 +0600
 tags: Werkzeuge Tools Office-Worker
 categories: [Werkzeuge]
 post_image: "/assets/images/project/project-1.jpg"

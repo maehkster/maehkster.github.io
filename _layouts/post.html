@@ -9,13 +9,21 @@ layout: default
                 <div class="blog-standard mt-30">
                     <div class="blog-item">
                         <div class="blog-content white-bg ">
-                         {{content}}
+                            {{content}}
                         </div>
                     </div>
                     <div class="blog-sharing d-block d-sm-flex justify-content-between">
                         <div class="blog-tag">
                             <p><span>Beliebte Themen...</span></p>
-                            {{site | tag_cloud}}
+                            {% assign tags = site.tags | sort %}
+                            {% for tag in tags %}
+                            <span class="site-tag">
+                                <a href="/tag/{{ tag | first | slugify }}/"
+                                    style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+                                    {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+                                </a>
+                            </span>
+                            {% endfor %}
                         </div>
                         <div class="blog-social">
                             <ul>
@@ -30,42 +38,45 @@ layout: default
                         <div class="row">
                             <div class="col-lg-6">
                                 <div class="blog-story-1">
-								  {% if page.previous.url %}
-								     <h4 class="title"><a class="prev text-white" href="{{page.previous.url}}">{{page.previous.title}}</a></h4>
-								  {% endif %}
+                                    {% if page.previous.url %}
+                                    <h4 class="title"><a class="prev text-white"
+                                            href="{{page.previous.url}}">{{page.previous.title}}</a></h4>
+                                    {% endif %}
                                 </div>
                             </div>
                             <div class="col-lg-6">
                                 <div class="blog-story-1 blog-story-1">
-								  {% if page.next.url %}
-								     <h4 class="title"><a class="prev text-white" href="{{page.next.url}}">{{page.next.title}}</a></h4>
-								  {% endif %}
+                                    {% if page.next.url %}
+                                    <h4 class="title"><a class="prev text-white"
+                                            href="{{page.next.url}}">{{page.next.title}}</a></h4>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="blog-massage">
                         <div id="disqus_thread"></div>
-						<script>
+                        <script>
 
-						var disqus_config = function () {
-						this.page.url = '{{site.url}}{{page.url}}';  
-						this.page.identifier = '{{page.url}}'; 
-						};
-						(function() { // DON'T EDIT BELOW THIS LINE
-						var d = document, s = d.createElement('script');
-						s.src = 'https://cloven.disqus.com/embed.js';
-						s.setAttribute('data-timestamp', +new Date());
-						(d.head || d.body).appendChild(s);
-						})();
-						</script>
-						<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+                            var disqus_config = function () {
+                                this.page.url = '{{site.url}}{{page.url}}';
+                                this.page.identifier = '{{page.url}}';
+                            };
+                            (function () { // DON'T EDIT BELOW THIS LINE
+                                var d = document, s = d.createElement('script');
+                                s.src = 'https://cloven.disqus.com/embed.js';
+                                s.setAttribute('data-timestamp', +new Date());
+                                (d.head || d.body).appendChild(s);
+                            })();
+                        </script>
+                        <noscript>Please enable JavaScript to view the <a
+                                href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 col-md-7 col-sm-9">
-              {% include sidebar.html %}
+                {% include sidebar.html %}
             </div>
         </div>
     </div>
-</section> 
+</section>

@@ -14,7 +14,9 @@
         {% for post in site.posts limit: "3" %}
         <div class="blog-news-item {% if forloop.index == 3 %} none {% endif %}">
             <div class="item">
-                <a href="{{post.url}}"><h5 class="title">{{post.title }}</h5></a>
+                <a href="{{post.url}}">
+                    <h5 class="title">{{post.title }}</h5>
+                </a>
                 <span>{{post.date | date: "%d.%m.%Y"}}</span>
                 <span>{{post.author}}</span>
             </div>
@@ -28,17 +30,21 @@
         </div>
         <div class="blog-list-item">
             <ul>
-            {% assign categories_list = site.categories %}
-              {% if categories_list.first[0] == null %}
+                {% assign categories_list = site.categories %}
+                {% if categories_list.first[0] == null %}
                 {% for category in categories_list %}
-                  <li><a class="text-capitalize" href="/category/{{ category | downcase | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category | camelcase }} <span>({{ site.tags[category].size }})</span></a></li>
+                <li><a class="text-capitalize"
+                        href="/category/{{ category | downcase | downcase | url_escape | strip | replace: ' ', '-' }}">{{
+                        category | camelcase }} <span>({{ site.tags[category].size }})</span></a></li>
                 {% endfor %}
-              {% else %}
+                {% else %}
                 {% for category in categories_list %}
-                  <li><a class="text-capitalize" href="/category/{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' }}">{{ category[0] | camelcase }} <span>({{ category[1].size }})</span></a></li>
+                <li><a class="text-capitalize"
+                        href="/category/{{ category[0] | downcase | url_escape | strip | replace: ' ', '-' }}">{{
+                        category[0] | camelcase }} <span>({{ category[1].size }})</span></a></li>
                 {% endfor %}
-              {% endif %}
-            {% assign categories_list = nil %}
+                {% endif %}
+                {% assign categories_list = nil %}
             </ul>
         </div>
     </div>
@@ -47,14 +53,24 @@
             <h3 class="title">Beliebte Themen</h3>
         </div>
         <div class="blog-tag text-capitalize">
-            {{site | tag_cloud}}
+            {% assign tags = site.tags | sort %}
+            {% for tag in tags %}
+            <span class="site-tag">
+                <a href="/tag/{{ tag | first | slugify }}/"
+                    style="font-size: {{ tag | last | size  |  times: 4 | plus: 80  }}%">
+                    {{ tag[0] | replace:'-', ' ' }} ({{ tag | last | size }})
+                </a>
+            </span>
+            {% endfor %}
         </div>
+
     </div>
     <div class="blog-add-area mt-55">
         <img src="/assets/images/blog-add.jpg" alt="add">
         <div class="add-overlay">
             <h3 class="title">Digitale <br> Kollaboration</h3>
-            <p>Sie suchen Unterstützung bei der Etablierung einer digitalen Arbeitskultur in Ihrer Organisation oder in Ihrem Team?</p>
+            <p>Sie suchen Unterstützung bei der Etablierung einer digitalen Arbeitskultur in Ihrer Organisation oder in
+                Ihrem Team?</p>
             <a class="main-btn main-btn-2" href="#">Kontaktformular<i class="fal fa-angle-double-right"></i></a>
         </div>
     </div>

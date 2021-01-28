@@ -35,4 +35,4 @@ Mit Hilfe von Kollaborationswerkzeugen wie Office365, CRMs, diversen Whiteboardi
 Achten Sie darauf, dass sie neben diesen Routinen auch soziale Routinen etablieren, damit ihre Kollegen weiterhin das Gefühl haben im Team zu arbeiten. Ein virtueller Kaffeklatsch, gemeinsame Mittagessen per Videokonferenz oder ggf. sogar das Feierabendbier oder ein Spieleabend sollten weiter zelebriert werden, um den Zusammenhalt zu stärken.
 
 > __Fazit:__
-> Sämtliche Routinetätigkeiten - die sozialen und die prozessbezogenen - sind notwendig, damit wir unsere Arbeitsergebnisse liefern können. In einer digitalisierten Organisation sollten daher Alternativen identifiziert und etabliert werden. Organisationen die diesbezüglich im Wandel sind haben ggf. diverse Hürden zu beginnen. Prozessbezogene Routinetätigkeiten lassen sich noch verhältnismäßig einfach über Anweisungen digitalisieren, während die wichtigen sozialen Abläufe das Mitwirken der Kollegen voraussetzen (Stichwort: Kulturwandel). Vergessen Sie nicht, wie wichtig ein "Team-Spirit" ist und suchen sie nach Möglichkeiten diesen auch in digitalisierten Arbeitsumgebungen entstehen zu lassen.
+>

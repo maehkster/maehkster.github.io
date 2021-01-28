@@ -26,6 +26,7 @@ Wenn man diese Gedanken nun sortiert, dann entstehen folgende Klassen an Routine
     * Kaffeklatsch
     * Mittagessen
     * Feierabend Bier
+
 Dabei sind in der Regel nur die erstgenannten Routinetätigkeiten durch Werkzeuge und festgelegte und standardisierte Prozesse unterstützt. Die soziale Routine im Unternehmen trägt aber nicht minder zum Arbeitsergebnis bei und ist in vielen Berufen ein Grund sich überhaupt in eine Organisation einzugliedern, statt sich einer selbständigen Beschäftigung zu widmen. Ein wertschätzendes Miteinander, Verständnis für die private Situation der Kollegen und Karriereziele sorgen für Zusammenhalt. Das ist vor allem wichtig in komplexen Aufgabenstellungen wo ein einzelnes Individuum ein Problem gar nicht alleine lösen kann. Genauso sind auch temporäre Ausfälle von Kollegen leichter kompensierbar, wenn die Bereitschaft da ist, die Arbeit dieser Person zu übernehmen.
 
 ### Routine und regelmäßige Abläufe in einem digitalisierten Umfeld

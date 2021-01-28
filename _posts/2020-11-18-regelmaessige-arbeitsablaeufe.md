@@ -3,18 +3,17 @@ layout: post
 title: "Regelmäßige Arbeitsabläufe"
 date: 2020-11-18 20:37:13 +0600
 tags: Digitale-Kollaboration Arbeitskultur Werkzeuge Alltag Routine
-categories: [Arbeitskultur]
+categories: [Werkzeuge, Arbeitsalltag]
 post_image: "/assets/images/project/project-1.jpg"
 header_image: "/assets/images/blog_header.jpg"
 author: "Silvana Heiß"
 ---
-Arbeiten Sie schon mit sogenannten "Productivity Tools"? Das sind Anwendungen, die uns Arbeit abnehmen und helfen sollen, sie schneller und effizienter erledigen zu können. Bestenfalls laufen sie sogar automatisiert nebenher und entlasten uns dadurch ungemein in unserem Büroalltag. Ich möchte in diesem Artikel weniger auf die Anwendungen selbst als auf den Nutzen dieser eingehen und ob und wann man sie überhaupt benötigt.
-
-### Welche regelmäßigen Tagesabläufe gibt es in meinem Unternehmen?
 Überlegen wir uns also, welche Arbeitsabläufe und Routinen uns bisher täglich im Büro begleitet haben. 
-Das morgendliche Daily Stand-Up, Small Talk an der Kaffeemaschine, "Guten-Morgen-Runde" durch die Büros, Zigarette mit den Kollegen in der Pause, gemeinsames Mittagessen, kurze Frage an den Kollegen über den Schreibtisch "geworfen", das berühmte "Bier nach Vier" am Freitag, usw... Sie werden jetzt vielleicht denken "Moment mal, das sind doch alles eher Freizeitbeschäftigungen als Arbeitsabläufe". Aber sind sie das wirklich? Meine persönliche Erfahrung ist, dass gerade in dieser "Freizeit" besonders viel Austausch zwischen den Kollegen stattfindet. Man hat sich gegenseitig von den Problemen des Tages erzählt, man hat sich gemeinsam über Erfolge gefreut, man hat einfach mal Dampf ablassen können und ist gestärkt wieder an den Arbeitsplatz zurückgekehrt. Und natürlich gehören auch private Gespräche dazu. Zwischendrin einfach mal den Kopf freibekommen und wieder frisch nach der Pause starten zu können verhilft ja gleichzeitig auch wieder für mehr Konzentration und Effizienz. Zu diesen sozialen Abläufen kommen dann natürlich noch die Technischen.
+Das morgendliche Daily Stand-Up, Small Talk an der Kaffeemaschine, "Guten-Morgen-Runde" durch die Büros, Zigarette mit den Kollegen in der Pause, gemeinsames Mittagessen, kurze Frage an den Kollegen über den Schreibtisch "geworfen", das berühmte "Bier nach Vier" am Freitag, usw... 
 
 ### Klassifizierung der Routinetätigkeiten
+Sie werden jetzt vielleicht denken "Moment mal, das sind doch alles eher Freizeitbeschäftigungen als Arbeitsabläufe". Aber sind sie das wirklich? Meine persönliche Erfahrung ist, dass gerade in dieser "Freizeit" besonders viel Austausch zwischen den Kollegen stattfindet. Man hat sich gegenseitig von den Problemen des Tages erzählt, man hat sich gemeinsam über Erfolge gefreut, man hat einfach mal Dampf ablassen können und ist gestärkt wieder an den Arbeitsplatz zurückgekehrt. Und natürlich gehören auch private Gespräche dazu. Zwischendrin einfach mal den Kopf freibekommen und wieder frisch nach der Pause starten zu können verhilft ja gleichzeitig auch wieder für mehr Konzentration und Effizienz. Zu diesen sozialen Abläufen kommen dann natürlich noch die Technischen.
+
 Wenn man diese Gedanken nun sortiert, dann entstehen folgende Klassen an Routinetätigkeiten, die teilweise durch Anweisung und Prozesse definiert sind oder von Arbeitskultur und sozialen Interaktionen geprägt sind
 * Aufgaben-, kunden oder projektbezogene Routine
     * Daily Standups

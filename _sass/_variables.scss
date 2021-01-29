@@ -29,7 +29,7 @@ $black-soft:#7e7e7e;
 
 
 // Responsive Variables
-$laptop: 'only screen and (min-width: 1200px) and (max-width: 1600px)';
+$laptop: 'only screen and (min-width: 1200px)'; // and (max-width: 1600px)';
 $lg : 'only screen and (min-width: 992px) and (max-width: 1200px)';
 $md:'only screen and (min-width: 767px) and (max-width: 991px)'; //'only screen and (min-width: 768px) and (max-width: 991px)';
 $xs:'(max-width: 766px)'; // '(max-width: 767px)';

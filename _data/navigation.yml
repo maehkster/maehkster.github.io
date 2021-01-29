@@ -9,7 +9,7 @@
   #   url: index-3
 - text: Blog
   url: /blog
-- text: Angebot
-  url: /angebot  
+#- text: Angebot
+#  url: /angebot  
 - text: Kontakt
   url: /kontakt

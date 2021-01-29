@@ -189,7 +189,7 @@
 	& .navigation{
 	    & .navbar {
 	        position: relative;
-	        padding: 0;
+			padding: 0;
 	        & .country-flag{
 	        	& img{
 	        		border: 5px solid $white;
@@ -231,7 +231,15 @@
 	        }
 
 	        & .navbar-collapse {
+				@media #{$laptop} {
+					margin-left: 520px; //MFH
+				}
+				@media #{$lg} {
+					margin-left: 520px; //MFH
+				}
+				
 	            @media #{$md} {
+					margin-left: 0px;
 	                position: absolute;
 	                top: 130%;
 	                left: 0;
@@ -244,6 +252,7 @@
 	            }
 
 	            @media #{$xs} {
+					margin-left: 0px; //MFH
 	                position: absolute;
 	                top: 130%;
 	                left: 0;
@@ -270,7 +279,7 @@
 	                position: relative;
 
 	                & a {
-	                    font-size: 22px; // MFH 14px;
+	                    font-size: 32px; // MFH 22px; // MFH 14px;
 	                    font-weight: 500;
 	                    color: $white;
 	                    text-transform: capitalize;
@@ -290,7 +299,7 @@
                         }
 
 	                    @media #{$lg} {
-	                        font-size: 22px;
+	                        font-size: 32px;
 	                        padding: 0 5px;
 	                        margin: 0 6px;
 	                    }

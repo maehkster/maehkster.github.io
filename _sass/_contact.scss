@@ -4,8 +4,15 @@
 /*===========================
     22.CONTACT css 
 ===========================*/
-
-
+.contact-info-item-standalone{
+	padding: 59px 0px 55px;
+	font-size: 22px;
+	& i{
+		font-size: 40px;
+		color: $theme-color-2;
+		padding-bottom: 6px;
+	}
+}
 
 
 .contact-info-area{

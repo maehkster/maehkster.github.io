@@ -6158,6 +6158,7 @@ readers do not read off random characters that represent icons */
   position: static;
   width: auto; }
 @font-face {
+  font-display: swap;
   font-family: 'Font Awesome 5 Brands';
   font-style: normal;
   font-weight: normal;
@@ -6168,6 +6169,7 @@ readers do not read off random characters that represent icons */
 .fab {
   font-family: 'Font Awesome 5 Brands'; }
 @font-face {
+  font-display: swap;
   font-family: 'Font Awesome 5 Pro';
   font-style: normal;
   font-weight: 300;
@@ -6179,6 +6181,7 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Pro';
   font-weight: 300; }
 @font-face {
+  font-display: swap;
   font-family: 'Font Awesome 5 Pro';
   font-style: normal;
   font-weight: 400;
@@ -6190,6 +6193,7 @@ readers do not read off random characters that represent icons */
   font-family: 'Font Awesome 5 Pro';
   font-weight: 400; }
 @font-face {
+  font-display: swap;
   font-family: 'Font Awesome 5 Pro';
   font-style: normal;
   font-weight: 900;

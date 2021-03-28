@@ -7,7 +7,9 @@ $(function() {
     //===== Prealoder
     
     $(window).on('load', function(event) {
+        console.log("onload happened!");
         $('#preloader').delay(500).fadeOut(500);
+        console.log("fade out dots...");
     });
     
     

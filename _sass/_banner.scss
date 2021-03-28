@@ -27,26 +27,26 @@
 	&::before{
 		position: absolute;
 		content: '';
-		left: -310px;
+		// left: -310px; MFH: fix background
 		top: 0;
 		height: 100%;
-		width: 75%;
+		width: 100%; // width: 75%; MFH: fix background
 		background: $grey;
-		transform: skewX(10deg);
+		//transform: skewX(10deg); MFH: fix background
 		z-index: -1;
 		@media #{$laptop} {
-			width: 82%;
+			//width: 82%; MFH: fix background
 		}
 		@media #{$lg} {
-			width: 90%;
+			// width: 90%; MFH: fix background
 		}
 		@media #{$md} {
-			width: 106%;
+			// width: 106%; MFH: fix background
 		}
 		@media #{$xs} {
-			width: 100%;
-			transform: skewX(0deg);
-			left: 0;
+			// width: 100%; MFH: fix background
+			// transform: skewX(0deg); MFH: fix background
+			// left: 0; MFH: fix background
 		}
 	}
 	&::after{
@@ -56,13 +56,27 @@
 		top: 0;
 		height: 100%;
 		width: 50%;
-		background-image: url(../images/banner-1-650.jpg);
-		background-size: cover;
-		background-position: right center;
+		background-image: url(../images/banner-3-small.png);
+		background-size: auto;// cover; MFG: fix background
+		background-position: 0px; // left center; // MFG: fix background
 		background-repeat: no-repeat;
-		z-index: -2;
+		z-index: 2;
 		@media #{$md} {
-			background-position: -240px 0px;
+			//background-position: -240px 0px; // MFG: fix background
+			background-image: url(../images/banner-3-small.png);
+			background-size: auto;// cover; MFG: fix background
+			background-position: center center; // left center; // MFG: fix background
+			background-repeat: no-repeat;
+			width: 100%;
+			opacity: 0.15;
+		}
+		@media #{$xs} {
+			background-image: url(../images/banner-3-small.png);
+			background-size: auto;// cover; MFG: fix background
+			background-position: center center; // left center; // MFG: fix background
+			background-repeat: no-repeat;
+			width: 100%;
+			opacity: 0.15;
 		}
 	}
 	& .banner-bg{
@@ -82,6 +96,13 @@
 	}
 	& .banner-content{
 		overflow: hidden;
+		text-align: left;
+		@media #{$md} {
+			text-align: center;
+		}
+		@media #{$xs} {
+			text-align: center;
+		}
 		& .title{
 			font-size: 65px;
 			font-weight: 300;
@@ -123,10 +144,10 @@
 			padding-top: 15px;
 			font-weight: 300;
 			@media #{$lg} {
-				font-size: 24px;
+				font-size: 30px;
 			}
 			@media #{$xs} {
-				font-size: 14px;
+				font-size: 26px;
 			}
 			@media #{$sm} {
 				font-size: 26px;
@@ -138,9 +159,14 @@
 			padding-right: 35px;
 			padding-top: 25px;
 			padding-bottom: 30px;
+			font-size: 18px;
+			@media #{$md} {
+				padding-right: 0;
+				font-size: 18px;
+			}
 			@media #{$xs} {
 				padding-right: 0;
-				font-size: 15px;
+				font-size: 18px;
 			}
 		}
 		& ul{
@@ -171,7 +197,7 @@
 	& .banner-shape-2{
 		margin-top: -100px; //MFH war vorher nicht da
 		position: absolute;
-		left: 50px;
+		left: 250px; // MFG: fix background
 		top: 150px;
 		z-index: -1;
 		animation: animationFramesOne linear 15s infinite;

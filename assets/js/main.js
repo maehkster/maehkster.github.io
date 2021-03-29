@@ -8,7 +8,7 @@ $(function() {
     
     $(window).on('load', function(event) {
         console.log("onload happened!");
-        $('#preloader').delay(500).fadeOut(500);
+        $('#preloader').delay(100).fadeOut(400);
         console.log("fade out dots...");
     });
   
@@ -381,7 +381,7 @@ $(function() {
     
     //===== 
     
-    $('#preloader').delay(500).fadeOut(500);
+    $('#preloader').delay(100).fadeOut(400);
     
     
     

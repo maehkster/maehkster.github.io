@@ -11,6 +11,7 @@ $(function() {
         $('#preloader').delay(500).fadeOut(500);
         console.log("fade out dots...");
     });
+  
     
     
     //===== Sticky
@@ -380,7 +381,7 @@ $(function() {
     
     //===== 
     
-    
+    $('#preloader').delay(500).fadeOut(500);
     
     
     

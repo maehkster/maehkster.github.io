@@ -5,6 +5,18 @@
     16.CASE STUDY css 
 ===========================*/
 
+.cite {
+	padding: 0px 20px 0px 20px;
+}
+
+.case-item-panel {
+	background-color: $primary-background-color;
+	padding: 10px 0px 10px 0px;
+}
+
+.rounded-corner-icon {
+	border-radius: 25px;
+}
 
 .case-item-centered {
 	width:100%;
@@ -12,7 +24,7 @@
 
 .case-study-area{
 	padding-top: 117px;
-	background: #eceff3;
+	background: $primary-background-color;
 	& .section-title{
 		& .title{
 			padding-bottom: 50px;
@@ -127,10 +139,10 @@
 	}
 	&.case-page-1{
 		padding-top: 100px;
-		background: $white;
+		//background: $white;
 		& .case-item{
 			& .case-content{
-				background: #eceff3;
+				background: $primary-background-color;
 			}
 		}
 	}

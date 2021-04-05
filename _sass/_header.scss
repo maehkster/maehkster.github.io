@@ -286,7 +286,7 @@
 	                    position: relative;
 	                    @include transition(0.3s);
 	                    margin: 0 12px;
-	                    line-height: 120px;
+	                    line-height: 100px;
                         padding: 0;
                         & > i{
                         	@media #{$md} {

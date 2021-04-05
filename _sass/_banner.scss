@@ -33,7 +33,7 @@
 		width: 100%; // width: 75%; MFH: fix background
 		background: $primary-background-color;
 		//transform: skewX(10deg); MFH: fix background
-		z-index: -1;
+		z-index: -5;
 		@media #{$laptop} {
 			//width: 82%; MFH: fix background
 		}
@@ -60,7 +60,7 @@
 		background-size: auto;// cover; MFG: fix background
 		background-position: 0px; // left center; // MFG: fix background
 		background-repeat: no-repeat;
-		z-index: -1;
+		z-index: -2;
 		@media #{$md} {
 			//background-position: -240px 0px; // MFG: fix background
 			background-image: url(../images/banner-3-small.png);

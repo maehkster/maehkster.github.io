@@ -60,7 +60,7 @@
 		background-size: auto;// cover; MFG: fix background
 		background-position: 0px; // left center; // MFG: fix background
 		background-repeat: no-repeat;
-		z-index: 2;
+		z-index: -1;
 		@media #{$md} {
 			//background-position: -240px 0px; // MFG: fix background
 			background-image: url(../images/banner-3-small.png);

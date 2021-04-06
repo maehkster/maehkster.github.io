@@ -3,12 +3,12 @@ layout: default
 header_image: "/assets/images/blog_header.jpg"
 title: "Blog"
 ---
-{% include page_header_small.html %}
+<!--  include page_header_small.html  -->
 <section class="blog-area blog-masonry">
 <div class="container">
     <div class="row justify-content-center">
         {% for post in paginator.posts %}
-        <div class="col-lg-4 col-md-7 col-sm-9">
+        <div class="col-lg-4 col-md-6 col-sm-12">
             <div class="blog-item mt-30">
                 {% if post.post_image %}
                 <a href="{{post.url}}"><div class="blog-thumb">

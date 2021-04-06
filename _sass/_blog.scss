@@ -33,7 +33,7 @@
 			}
 		}
 		& .blog-content{
-			padding-top: 33px;
+			padding-bottom: 50px;
 			& ul{
 				& li{
 					display: inline-block;
@@ -116,6 +116,7 @@
 		}
 	}
 	&.blog-masonry{
+		margin-top: 120px;
 		padding-top: 0px; //MFH 100px
 		padding-bottom: 128px;
 		& .blog-item{

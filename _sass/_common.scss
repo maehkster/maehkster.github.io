@@ -166,7 +166,17 @@ p {
 }
 
 
-
+.feature-title{
+    @media #{$lg} {
+        font-size: 38px;
+    }
+    @media #{$xs} {
+        font-size: 24px;
+    }
+    @media #{$sm} {
+        font-size: 40px;
+    }
+}
 
 /* SECTION TITLE  */
 
@@ -185,21 +195,21 @@ p {
             font-size: 24px;
         }
         @media #{$sm} {
-            font-size: 40px;
+            font-size: 29px;
         }
         & span{
             font-weight: 600;
             color: $black;
             font-size: 50px;
             @media #{$lg} {
-                font-size: 40px;
+                font-size: 50px;
             }
             @media #{$xs} {
-                font-size: 34px;
+                font-size: 36px;
                 line-height: 45px;
             }
             @media #{$sm} {
-                font-size: 42px;
+                font-size: 36px;
             }
             & span{
                 color: $theme-color-2;
